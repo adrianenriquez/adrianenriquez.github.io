@@ -1,0 +1,22 @@
+[
+    {
+        "name": "LinkedIn",
+        "permalink": "linked-in",
+        "url": "http://ph.linkedin.com/in/adrianenriquez"
+    },
+    {
+        "name": "Stack Overflow",
+        "permalink": "stack-overflow",
+        "url": "http://stackoverflow.com/users/3126509/adrian-enriquez"
+    },
+    {
+        "name": "GitHub",
+        "permalink": "github",
+        "url": "https://github.com/eydreeyawn"
+    },
+    {
+        "name": "Twitter",
+        "permalink": "https://twitter.com/eydreeyawn",
+        "url": ""
+    }
+]

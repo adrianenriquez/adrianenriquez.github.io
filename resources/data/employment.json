@@ -1,0 +1,42 @@
+[
+    {
+        "company_name": "Call Loop",
+        "position": "Front-end Developer",
+        "address": "United States",
+        "start_date": "February 2015",
+        "end_date": "May 2015",
+        "description": "Hello World",
+        "tags": [
+            "front-end development",
+            "psd to html",
+            "javascript"
+        ]
+    },
+    {
+        "company_name": "Powered by Pace, Inc.",
+        "position": "Front-end Developer",
+        "address": "Canada",
+        "start_date": "July 2014",
+        "end_date": "September 2014",
+        "description": "Hello World",
+        "tags": [
+            "angularjs",
+            "psd to html"
+        ]
+    },
+    {
+        "company_name": "EG-Software CALCMENU Philippines",
+        "position": "Programmer",
+        "address": "Ortigas Philippines",
+        "start_date": "November 2013",
+        "end_date": "May 2014",
+        "description": "Hello World",
+        "tags": [
+            "angularjs",
+            "phonegap",
+            "vb.net",
+            "c#.net",
+            "mssql"
+        ]
+    }
+]

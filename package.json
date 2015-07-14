@@ -1,0 +1,12 @@
+{
+  "name": "adrianenriquez",
+  "version": "2.0.0",
+  "dependencies": {
+    "gulp-less": "^3.0.3",
+    "gulp-copy": "*"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-less": "^3.0.3"
+  }
+}

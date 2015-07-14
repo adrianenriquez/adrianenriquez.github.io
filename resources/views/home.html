@@ -1,0 +1,120 @@
+
+<div ng-include="'resources/views/_navbar.html'"></div>
+<!-- Content -->
+    <section id="home">
+        <div id="home-bg"></div>
+        <div class="container">
+            <div id="home-summary" class="col-sm-offset-2 col-sm-8 text-center">
+                <h1>Hi, I'm {{ profile.name }}, a {{ profile.tagline }} based in {{ profile.address }}.</h1>
+            </div>
+        </div>
+    </section>
+
+    <section id="works">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>WORKS</h1>
+                    <div class="col-xs-2 col-xs-offset-5"><hr></div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="work-item-container" class="col-md-4 col-sm-6" ng-repeat="project in projects | reverse">
+                    <div class="work-item">
+                        <div class="work-thumbnail">
+                            <img ng-src="public/images/works/640/{{ project.thumbnail }}">
+                        </div>
+                        <div class="work-details">
+                            <h4>{{ project.title }}</h4>
+                            <div class="col-xs-6 col-xs-offset-3"><hr></div>
+                            <div class="clearfix"></div>
+                            <a href="work/{{ project.permalink }}" class="btn btn-primary">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>About Me</h1>
+                    <p>{{profile.about_me}}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>Experience</h1>
+                </div>
+                <div class="col-md-12"> 
+                    <ul>
+                        <li ng-repeat="experience in employment">
+                            <h2>{{experience.company_name}}</h2>
+                            <h3>{{experience.position}}</h3>
+                            <span>{{experience.start_date}} - {{experience.end_date}} </span>
+                            <p>{{experience.description}}</p>
+                            <ul>
+                                <li ng-repeat="tags in experience.tags">
+                                    {{tags}}
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h1>Testimonials</h1>
+            <carousel interval="5000">
+                <slide ng-repeat="testimonial in testimonials" active="slide.active">
+                    <img ng-src="{{testimonial.image}}" class="center-block">
+                    <h2>{{testimonial.name}}</h2>
+                    <h3>{{testimonial.company}}</h3>
+                    <h4>{{testimonial.position}}</h4>
+                    <p>{{testimonial.message}}</p>
+                {{slide.active}}
+                </slide>
+            </carousel>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Contact</h1>
+                </div>
+                <div class="col-md-4">
+                    <form>
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" class="form-control" placeholder="Enter your name.">
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" class="form-control" placeholder="Enter your email.">
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea class="form-control" rows="3" placeholder="Enter your message."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-default">Send</button>
+                    </form>
+                </div>
+                <div class="col-md-8">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<div ng-include="'resources/views/footer.html'"></div>

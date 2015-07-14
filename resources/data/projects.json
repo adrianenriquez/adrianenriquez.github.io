@@ -1,0 +1,379 @@
+[
+  {
+    "title": "MK Compass Travel and Tours Website",
+    "permalink": "mkcompass-travel-and-tours",
+    "about": "We aim to promote the beauty of the Philippines and let more people explore the hidden treasure of our country at reasonable and affordable way.",
+    "goal": "Create a travel and tours website that can be easily updated using WYSIWYG editor. Also create a simple logo for it.",
+    "development" : "I develop this website using Wordpress, so that the content can be easily updated using WYSIWYG editor.",
+    "website": "http://mkcompasstravel.com",
+    "status": "Online",
+    "date": "",
+    "category": "website",
+    "tags": [
+        "Wordpress", 
+        "HTML/CSS",
+        "Web Design",
+        "SEO",
+        "Logo Design",
+        "Google Analytics",
+        "Responsive Design"
+    ],
+    "thumbnail": "mkcompass-travel.jpg",
+    "images":[
+
+    ]
+  },
+  {
+    "title": "Southern Supereme Global Builders Corporation Website",
+    "about": "A newly established dealer of heavy equipment, wholesaler of different kinds of aggregates and renting of other machineries.",
+    "goal": "Created a simple product gallery website.",
+    "development" : "I used Twitter Bootstrap to create this static website.",
+    "website": "http://ssg-bc.com",
+    "status": "Expired",
+    "date": "",
+    "category": "website",
+    "tags": [
+        "Bootstrap", 
+        "HTML/CSS",
+        "Web Design",
+        "SEO",
+        "Responsive Design"
+    ],
+    "thumbnail": "ssg-bc.jpg",
+    "images":[
+
+    ]
+  },
+  {
+    "title": "Creative Jooze Online Student Portal",
+    "about": "An instructional portal designed for exceptionally creative students, driven to strive for academic excellence, specifically in the College of Fine Arts at the Technological University of the Philippines Manila.",
+    "goal": "Create a student portal for Fine Arts Students of Technological University of the Philippines.",
+    "development" : "We used Joomla to change the content easily and we used Moodle for the professors and instructors to upload the lessons and lectures for their students.",
+    "website": "http://creativejoozeonline.org",
+    "status": "Expired",
+    "date_launched": "",
+    "category": "website",
+    "team_members": [
+        {
+            "name": "Jelly de Ocampo",
+            "display_picture" : "",
+            "website": "www.jellydeocampo.com"
+        }
+    ],
+    "tags": [
+        "Joomla", 
+        "Moodle",
+        "Web Design",
+        "PSD to HTML",
+        "Responsive Design"
+    ],
+    "thumbnail": "creative-jooze-online.jpg",
+    "images":[
+
+    ]
+  },
+  {
+    "title": "OJT UE Manila Website",
+    "about": "A website for announcements and news for On the Job Training Students of University of the East Manila.",
+    "goal": "Create a website than can be easily change and update the content with image gallery.",
+    "development" : "We used Wordpress and a news and annoucement template.",
+    "website": "http://ojtuemanila.com",
+    "status": "Expired",
+    "date_launched": "",
+    "category": "website",
+    "team_members": [
+        {
+            "name": "Jelly de Ocampo",
+            "display_picture" : "",
+            "website": "www.jellydeocampo.com"
+        }
+    ],
+    "tags": [
+        "Wordpress", 
+        "Premium Template",
+        "Social Login"
+    ],
+    "thumbnail": "ojtuemanila.jpg",
+    "images":[
+
+    ]
+  },
+  {
+    "title": "Make-up by Russell",
+    "about": "An image gallery portfolio website.",
+    "goal": "Create a simple gallery website.",
+    "development" : "I used native PHP and mySQL to store image links and content.",
+    "website": "http://makeupbyrussell.com",
+    "status": "Online",
+    "date_launched": "",
+    "category": "website",
+    "tags": [
+        "PHP", 
+        "mySQL", 
+        "Bootstrap",
+        "Admin Dashboard"
+    ],
+    "thumbnail": "mbr.jpg",
+    "images":[
+
+    ]
+  },
+  {
+    "title": "Git Lucky Team Portfolio Website",
+    "about": "A static portfolio website.",
+    "goal": "Create a simple team portfolio website that shows the team skills and works.",
+    "development" : "I used native PHP and mySQL to store image links and content.",
+    "website": "http://gitlucky.herokuapp.com",
+    "status": "Online",
+    "date_launched": "",
+    "category": "website",
+    "tags": [
+        "Bootstrap", 
+        "HTML/CSS", 
+        "CSS3 Animations",
+        "Responsive Design"
+    ],
+    "thumbnail": "git-lucky.jpg",
+    "images":[
+
+    ]
+  },
+  {
+    "title": "Powered by PACE",
+    "about": "",
+    "goal": "",
+    "development" : "",
+    "website": "",
+    "status": "Online",
+    "date_launched": "",
+    "category": "website",
+    "tags": [
+        "CSS", 
+        "Responsive Design", 
+        "Javascript", 
+        "Bootstrap"
+    ],
+    "thumbnail": "powered-by-pace.jpg",
+    "images":[
+
+    ]
+  },
+  {
+    "title": "IRISbook Website",
+    "about": "A static portfolio website.",
+    "goal": "Create a simple team portfolio website that shows the team skills and works.",
+    "development" : "I used native PHP and mySQL to store image links and content.",
+    "website": "http://irisbook.com",
+    "status": "Online",
+    "date_launched": "",
+    "category": "website",
+    "tags": [
+        "Bootstrap", 
+        "HTML/CSS", 
+        "PSD to HTML",
+        "Responsive Design"
+    ],
+    "thumbnail": "irisbook.jpg",
+    "images":[
+
+    ]
+  },
+  {
+    "title": "Jesuit Volunteer Philippines Foundation, Inc.",
+    "about": "JVP is a community dedicated to the task of nation-building by promoting volunteerism and serving as development network in increasing literacy, creating more equitable access to health services, education and community life, especially for the marginalized and underprivileged. We are also a network of leaders in our own communities or fields of concerns.",
+    "goal": "To create a website that promotes JVP and to attract more volunteers and donations.",
+    "development" : "We created a responsive static website using Bootstrap and CSS Animations.",
+    "website": "http://gitlucky.herokuapp.com",
+    "status": "Online",
+    "date_launched": "",
+    "category": "website",
+    "team_members": [
+        {
+            "name": "Jelly de Ocampo",
+            "display_picture" : "",
+            "website": "www.jellydeocampo.com"
+        }
+    ],
+    "tags": [
+        "Bootstrap", 
+        "HTML/CSS", 
+        "CSS Animations",
+        "Responsive Design"
+    ],
+    "thumbnail": "jvpfi.jpg",
+    "images":[
+
+    ]
+  },
+  {
+    "title": "Skizzah",
+    "about": "",
+    "goal": "",
+    "development" : "",
+    "website": "http://skizzah.com",
+    "status": "Online",
+    "date_launched": "",
+    "category": "website",
+    "team_members": [
+        {
+            "name": "Jelly de Ocampo",
+            "display_picture" : "",
+            "website": "www.jellydeocampo.com"
+        }
+    ],
+    "tags": [
+        "Wordpress", 
+        "UI Design", 
+        "PSD to HTML", 
+        "HTML/CSS", 
+        "Responsive Design"
+    ],
+    "thumbnail": "skizzah.jpg",
+    "images":[
+
+    ]
+  },
+  {
+    "title": "Desimemes",
+    "about": "",
+    "goal": "",
+    "development" : "",
+    "website": "",
+    "status": "Offline",
+    "date_launched": "",
+    "category": "website",
+    "tags": [
+        "Node.js", 
+        "Responsive Design", 
+        "Javascript", 
+        "Bootstrap",
+        "Express.js",
+        "Amazon S3",
+        "MongoDB"
+    ],
+    "thumbnail": "desimemes.jpg",
+    "images":[
+
+    ]
+  },
+  {
+    "title": "Pizza Papa John's - Azerbaijan",
+    "about": "",
+    "goal": "",
+    "development" : "",
+    "website": "",
+    "status": "Online",
+    "date_launched": "",
+    "category": "website",
+    "tags": [
+        "CSS", 
+        "Responsive Design", 
+        "Javascript", 
+        "Bootstrap"
+    ],
+    "thumbnail": "papa-johns.jpg",
+    "images":[
+
+    ]
+  },
+  {
+    "title": "FM Reyman Trucking Services Inc. Website",
+    "about": "",
+    "goal": "",
+    "development" : "",
+    "website": "reyman.ph",
+    "status": "Online",
+    "date_launched": "",
+    "category": "website",
+    "tags": [
+        "CSS", 
+        "Responsive Design", 
+        "Javascript", 
+        "Bootstrap"
+    ],
+    "thumbnail": "fm-reyman.jpg",
+    "images":[
+
+    ]
+  },
+  {
+    "title": "Call Loop",
+    "about": "",
+    "goal": "",
+    "development" : "",
+    "website": "",
+    "status": "Online",
+    "date_launched": "",
+    "category": "website",
+    "tags": [
+        "CSS", 
+        "Responsive Design", 
+        "Javascript", 
+        "Bootstrap"
+    ],
+    "thumbnail": "callloop-less.jpg",
+    "images":[
+
+    ]
+  },
+  {
+    "title": "Phone Checkr",
+    "about": "",
+    "goal": "",
+    "development" : "",
+    "website": "",
+    "status": "Online",
+    "date_launched": "",
+    "category": "website",
+    "tags": [
+        "CSS", 
+        "Responsive Design", 
+        "Javascript", 
+        "Bootstrap"
+    ],
+    "thumbnail": "phone-checkr.jpg",
+    "images":[
+
+    ]
+  },
+  {
+    "title": "Kicka Conference",
+    "about": "",
+    "goal": "",
+    "development" : "",
+    "website": "kickaconference.com",
+    "status": "Online",
+    "date_launched": "",
+    "category": "website",
+    "tags": [
+        "CSS", 
+        "Responsive Design", 
+        "Javascript", 
+        "Bootstrap"
+    ],
+    "thumbnail": "kickaconference.jpg",
+    "images":[
+
+    ]
+  },
+  {
+    "title": "SALT",
+    "about": "",
+    "goal": "",
+    "development" : "",
+    "website": "kickaconference.com",
+    "status": "Online",
+    "date_launched": "",
+    "category": "website",
+    "tags": [
+        "CSS", 
+        "Responsive Design", 
+        "Javascript", 
+        "Bootstrap"
+    ],
+    "thumbnail": "salt.jpg",
+    "images":[
+
+    ]
+  }
+]
