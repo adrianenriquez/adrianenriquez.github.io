@@ -1,11 +1,17 @@
 
 <div ng-include="'resources/views/_navbar.html'"></div>
+
+<div class="borders"></div>
+
 <!-- Content -->
 <section id="home">
 	<div id="home-bg"></div>
 	<div class="container">
 		<div id="home-summary" class="col-sm-offset-2 col-sm-8 text-center">
-			<h1>Hi, I'm {{ profile.name }}, a {{ profile.tagline }} based in {{ profile.address }}.</h1>
+			<hgroup>
+				<h1>Hi, I'm {{ profile.name }}.</h1>
+				<h2 class="badge badge-primary">{{ profile.tagline }}</h2>
+			</hgroup>
 		</div>
 	</div>
 </section>
