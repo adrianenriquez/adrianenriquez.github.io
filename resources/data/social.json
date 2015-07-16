@@ -1,22 +1,22 @@
 [
     {
         "name": "LinkedIn",
-        "permalink": "linked-in",
+        "icon": "linkedin",
         "url": "http://ph.linkedin.com/in/adrianenriquez"
     },
     {
         "name": "Stack Overflow",
-        "permalink": "stack-overflow",
+        "icon": "stack-overflow",
         "url": "http://stackoverflow.com/users/3126509/adrian-enriquez"
     },
     {
         "name": "GitHub",
-        "permalink": "github",
+        "icon": "github",
         "url": "https://github.com/eydreeyawn"
     },
     {
         "name": "Twitter",
-        "permalink": "https://twitter.com/eydreeyawn",
-        "url": ""
+        "icon": "twitter",
+        "url": "https://twitter.com/eydreeyawn"
     }
 ]

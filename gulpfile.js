@@ -12,7 +12,8 @@ gulp.task('less', function() {
 gulp.task('copy', function(){
     // Fonts
     gulp.src([
-        'bower_components/bootstrap/dist/fonts/*'
+        'bower_components/bootstrap/dist/fonts/*',
+        'bower_components/font-awesome/fonts/*'
     ])
     .pipe(gulp.dest('public/fonts/'));
 

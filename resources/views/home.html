@@ -10,13 +10,37 @@
 
 <!-- Content -->
 <section id="home">
-	<div id="home-bg"></div>
 	<div class="container">
 		<div id="home-summary" class="col-sm-offset-2 col-sm-8 text-center">
 			<hgroup>
 				<h1>Hi, I'm {{ profile.name }}.</h1>
 				<h2 class="">{{ profile.tagline }}</h2>
 			</hgroup>
+		</div>
+	</div>
+</section>
+
+<section id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-offset-3 col-sm-6 text-center">
+				<h1>About</h1>
+				<img src="http://namicon.nexucloud.com/AE/128/2c3e50/fc4349">
+				<p>{{profile.summary}}</p>
+				<ul class="btn-social-container">
+					<li ng-repeat="item in social">
+						<a href="{{item.url}}" alt="{{item.name}}">
+							<span class="fa fa-fw fa-{{item.icon}}"></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<h2>Skills</h2>
+			</div>
+			<div class="col-sm-6">
+				<h2>Services</h2>
+			</div>
 		</div>
 	</div>
 </section>
@@ -42,17 +66,6 @@
 						<a href="work/{{ project.permalink }}" class="btn btn-primary">View</a>
 					</div>
 				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section id="about">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<h1>About Me</h1>
-				<p>{{profile.about_me}}</p>
 			</div>
 		</div>
 	</div>
