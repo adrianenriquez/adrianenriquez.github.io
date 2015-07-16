@@ -1,8 +1,11 @@
 @import "bower_components/bootstrap/less/bootstrap";
 @import "variables";
 
-
+@import "components/grid";
 @import "components/navbar";
+@import "components/buttons";
+
+@import "sections";
 
 body,
 html,
@@ -28,128 +31,39 @@ html,
     100% {.scale(1.2)}
 }
 
-// Navbar
-
-.navbar{
-
-    .navbar-brand{
-        text-transform: uppercase;
-        font-weight: 700;
-    }
-
-    .navbar-toggle{
-        border-radius: 0;
-    }
-
-    li a{
-        text-transform: uppercase;
-        font-weight: 700;
-    }
-}
-
-#main-nav{
-    .transition(background-color .3s ease);
-
-}
-
-// Sections
-
-.borders{
-    height: 100%;
-    width: 100%;
+.border-top,
+.border-bottom,
+.border-left,
+.border-right{
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border: 20px solid #fff;
+    background-color: #fff;
     z-index: 1000;
 }
 
-#home{
-    min-height: 100%;
-    position: relative;
-    overflow: hidden;
-
-    #home-bg{
-        //background: url('../images/bg/table.jpg') center center no-repeat #333;
-        background-color: @brand-primary;
-        background-size: cover;
-        min-height: 100%;
-        position: absolute;
-        width: 100%;
-        .animation(scale-bg 20s linear);
-        .scale(1.2);
-    }
-
-    h1{
-        color: #fff;
-        line-height: 1.3;
-    }
-
-    #home-summary{
-        margin-top: 250px;
-    }
-
+.border-top,
+.border-bottom{
+    height: 20px;
+    width: 100%;
 }
 
-#works{
-    background-color: #f6f6f6;
-    
-    #work-item-container{
-
-    }
-
-    .work-item{
-        position: relative;
-        margin-bottom: 30px;
-
-        &:hover .work-details{
-            opacity: 1;
-            background-color: fadeout(#000, 50%);
-        }
-
-        &:hover .work-thumbnail img{
-            .scale(1.1);
-        }
-
-        .work-thumbnail{
-            overflow: hidden;
-        }
-        .work-thumbnail img{
-            width: 100%;
-            .transition(all .3s);
-            .scale(1);
-            -webkit-backface-visibility: hidden;
-            -webkit-transform: translateZ(0) scale(1.0, 1.0);
-        }
-
-        .work-details{
-            position: absolute;
-            top:0;
-            left: 0;
-            right: 0;
-            opacity: 0;
-            text-align: center;
-            color: #fff;
-            padding: 50px 20px;
-            height: 100%;
-            .transition(opacity .3s);
-        }
-    }
+.border-top{
+    top: 0;
 }
 
-// Buttons
-.btn{
-    border-width: 2px;
-    border-radius: 0;
+.border-bottom{
+    bottom: 0;
+}
 
-    &.btn-primary{
-        .transition(all 0.3s ease);
-        
-        &:hover{
-            background-color: @brand-primary;
-            border-color: @brand-primary;
-        }
-    }
+.border-left,
+.border-right{
+    width: 20px;
+    height: 100%;
+}
+
+.border-left{
+    left: 0;
+}
+
+.border-right{
+    right: 0;
 }
