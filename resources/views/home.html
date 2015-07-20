@@ -21,10 +21,10 @@
 </section>
 
 <section id="about">
-	<div class="container">
+	<div class="container text-center">
+		<h1>About</h1>
 		<div class="row">
-			<div class="col-sm-offset-3 col-sm-6 text-center">
-				<h1>About</h1>
+			<div class="col-sm-offset-3 col-sm-6">
 				<img src="http://namicon.nexucloud.com/AE/128/2c3e50/fc4349">
 				<p>{{profile.summary}}</p>
 				<ul class="btn-social-container">
@@ -77,27 +77,32 @@
 			<div class="col-md-12 text-center">
 				<h1>Experience</h1>
 			</div>
-			<div class="col-md-12"> 
-				<ul>
-					<li ng-repeat="experience in employment">
-						<h2>{{experience.company_name}}</h2>
-						<h3>{{experience.position}}</h3>
-						<span>{{experience.start_date}} - {{experience.end_date}} </span>
+			<div class="col-sm-offset-3 col-sm-6"> 
+				<div class="media" ng-repeat="experience in employment">
+					<div class="media-left">
+						<a href="#">
+							<img class="media-object" src="http://namicon.nexucloud.com/CL" alt="Call Loop Icon">
+						</a>
+					</div>
+					<div class="media-body">
+						<h3 class="media-heading">{{experience.company_name}}</h3>
+						<h4>{{experience.position}}</h4>
+						<p>{{experience.start_date}} - {{experience.end_date}} </p>
 						<p>{{experience.description}}</p>
-						<ul>
+						<ul class="tags">
 							<li ng-repeat="tags in experience.tags">
-								{{tags}}
+								<span class="label label-default">{{tags}}</span>
 							</li>
 						</ul>
-					</li>
-				</ul>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
 
 <section id="testimonials">
-	<div class="container">
+	<div class="container text-center">
 		<h1>Testimonials</h1>
 		<carousel interval="5000">
 			<slide ng-repeat="testimonial in testimonials" active="slide.active">
@@ -113,7 +118,7 @@
 </section>
 
 <section id="contact">
-	<div class="container">
+	<div class="container text-center">
 		<div class="row">
 			<div class="col-md-12">
 				<h1>Contact</h1>

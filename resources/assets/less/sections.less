@@ -2,6 +2,13 @@ section{
     padding: 30px;
 
     h1{
+        text-transform: uppercase;
+        display: inline-block;
+        font-weight: 300;
+        border: 2px solid #fff;
+        padding: 8px 20px;
+        font-size: @font-size-h2;
+        color: #fff;
     }
 }
 
@@ -13,6 +20,7 @@ section{
 
     h1{
         color: #fff;
+        border: 0;
     }
 
     h2{
@@ -78,10 +86,16 @@ section{
             padding: 50px 20px;
             .transition(opacity .3s);
 
-            &:after{
+            .btn{
+                position: relative;
+                z-index: 20;
+            }
+
+            &:before{
                 content: '';
                 border: 2px solid #fff;
                 position: absolute;
+                z-index: 10;
                 top: 5px;
                 left: 5px;
                 right: 5px;
