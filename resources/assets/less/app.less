@@ -5,6 +5,7 @@
 @import "fonts/ss-gizmo";
 
 @import "components/grid";
+@import "components/media";
 @import "components/typography";
 @import "components/navbar";
 @import "components/buttons";
@@ -70,4 +71,16 @@ html,
 
 .border-right{
     right: 0;
+}
+
+@media (max-width: @screen-xs-max){
+    .border-left,
+    .border-right{
+        width: 10px;
+    }
+
+    .border-top,
+    .border-bottom{
+        height: 10px;
+    }
 }

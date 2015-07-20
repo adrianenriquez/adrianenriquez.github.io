@@ -1,9 +1,10 @@
 [
     {
         "company_name": "Call Loop",
+        "icon_name": "cl-logo.png",
         "position": "Front-end Developer",
         "address": "United States",
-        "start_date": "February 2015",
+        "start_date": "Feb 2015",
         "end_date": "May 2015",
         "description": "Hello World",
         "tags": [
@@ -13,11 +14,12 @@
         ]
     },
     {
-        "company_name": "Powered by Pace, Inc.",
+        "company_name": "Powered by PACE, Inc.",
+        "icon_name": "pace-logo.png",
         "position": "Front-end Developer",
         "address": "Canada",
-        "start_date": "July 2014",
-        "end_date": "September 2014",
+        "start_date": "Jul 2014",
+        "end_date": "Sep 2014",
         "description": "Hello World",
         "tags": [
             "angularjs",
@@ -26,9 +28,10 @@
     },
     {
         "company_name": "EG-Software CALCMENU Philippines",
+        "icon_name": "calcmenu-logo.png",
         "position": "Programmer",
         "address": "Ortigas Philippines",
-        "start_date": "November 2013",
+        "start_date": "Nov 2013",
         "end_date": "May 2014",
         "description": "Hello World",
         "tags": [

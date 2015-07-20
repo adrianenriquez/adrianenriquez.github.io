@@ -81,12 +81,12 @@
 				<div class="media" ng-repeat="experience in employment">
 					<div class="media-left">
 						<a href="#">
-							<img class="media-object" src="http://namicon.nexucloud.com/CL" alt="Call Loop Icon">
+							<img class="media-object" ng-src="public/images/logo/{{experience.icon_name}}" alt="Call Loop Icon">
 						</a>
 					</div>
 					<div class="media-body">
-						<h3 class="media-heading">{{experience.company_name}}</h3>
-						<h4>{{experience.position}}</h4>
+						<h4 class="media-heading">{{experience.company_name}}</h4>
+						<h5>{{experience.position}}</h5>
 						<p>{{experience.start_date}} - {{experience.end_date}} </p>
 						<p>{{experience.description}}</p>
 						<ul class="tags">
