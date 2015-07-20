@@ -37,9 +37,15 @@
 			</div>
 			<div class="col-sm-6">
 				<h2>Skills</h2>
+				<ul class="text-left">
+					<li ng-repeat="skill in profile.skills">{{skill}}</li>
+				</ul>
 			</div>
 			<div class="col-sm-6">
 				<h2>Services</h2>
+				<ul class="text-left">
+					<li ng-repeat="service in profile.services">{{service}}</li>
+				</ul>
 			</div>
 		</div>
 	</div>
@@ -47,15 +53,12 @@
 
 <section id="works">
 	<div class="container">
+		<header class="text-center">
+			<h1>Works</h1>
+		</header>
 		<div class="row">
-			<div class="col-md-12 text-center">
-				<h1>WORKS</h1>
-				<div class="col-xs-2 col-xs-offset-5"><hr></div>
-			</div>
-		</div>
-		<div class="row">
-			<div id="work-item-container" class="col-md-4 col-sm-6" ng-repeat="project in projects | reverse">
-				<div class="work-item">
+			<div  id="work-item-container" class="col-md-4 col-sm-6" ng-repeat="project in projects | reverse">
+				<div ng-if="$index < 6" class="work-item">
 					<div class="work-thumbnail">
 						<img ng-src="public/images/works/640/{{ project.thumbnail }}">
 					</div>
@@ -63,9 +66,13 @@
 						<h4>{{ project.title }}</h4>
 						<div class="col-xs-6 col-xs-offset-3"><hr></div>
 						<div class="clearfix"></div>
-						<a href="work/{{ project.permalink }}" class="btn btn-primary">View</a>
+						<a href="#/work/{{ project.permalink }}" class="btn btn-primary">View</a>
 					</div>
 				</div>
+			</div>
+
+			<div class="col-sm-12">
+				<button class="btn btn-primary">View All</button>
 			</div>
 		</div>
 	</div>
@@ -101,19 +108,23 @@
 	</div>
 </section>
 
-<section id="testimonials">
+<section id="testimonials" ng-controller="TestimonialsCtrl">
 	<div class="container text-center">
 		<h1>Testimonials</h1>
-		<carousel interval="5000">
-			<slide ng-repeat="testimonial in testimonials" active="slide.active">
-				<img ng-src="{{testimonial.image}}" class="center-block">
-				<h2>{{testimonial.name}}</h2>
-				<h3>{{testimonial.company}}</h3>
-				<h4>{{testimonial.position}}</h4>
-				<p>{{testimonial.message}}</p>
-				{{slide.active}}
-			</slide>
-		</carousel>
+		<div class="owl-carousel">
+			<div class="item">
+				<h2>Chris Brisson</h2>
+				<h3>Call Loop</h3>
+				<h4>Position</h4>
+				<p>Worked fast, on time, on budget, easy to work with and superb deliverable.</p>
+			</div>
+			<div class="item">
+				<h2>Chris Brisson</h2>
+				<h3>Call Loop</h3>
+				<h4>Position</h4>
+				<p>Message</p>
+			</div>
+		</div>
 	</div>
 </section>
 

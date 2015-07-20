@@ -5,3 +5,8 @@ angular.module('ae.filters', [])
         return items.slice().reverse();
     };
 })
+.filter('snakeCase', function(){
+    return function(permalink){
+        return permalink.replace(/-/g, '_');
+    }
+})

@@ -2,9 +2,15 @@
 
 .media{
 
+
+    @media (min-width: @screen-sm-min){
+        .media-left{
+            padding-right: 30px;
+        }
+    }
     @media (max-width: @screen-xs-max){
         text-align: center;
-        
+
         .media-left{
             display: inline-block;
         }

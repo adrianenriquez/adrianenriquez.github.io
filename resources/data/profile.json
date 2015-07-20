@@ -3,5 +3,18 @@
     "tagline": "Freelance Web Developer",
     "address": "Philippines",
     "email": "me@adrianenriquez.com",
-    "summary": "I'm a web developer with more than 3 years of experience developing websites, web applications and mobile applications. Expert in HTML/HTML5, CSS/CSS3, Responsive Web Design. Proficient in PHP,Javascript, Wordpress, AngularJS."
+    "summary": "I'm Adrian Enriquez, a freelance web developer with more than 2 years of experience. I used to design and develop websites for clients from all around the world as a freelancer. Constantly learning and experiencing new things.",
+    "skills": [
+        "Superior skills in HTML and CSS/CSS3",
+        "Proficient in PHP, Laravel Framework",
+        "Familiar in Node.js",
+        "Proficient in Photoshop",
+        "Wordpress and Joomla"
+    ],
+    "services": [
+        "Web Design and Development",
+        "Mobile Application Development and Design",
+        "API Services",
+        "PSD to HTML"
+    ]
 }

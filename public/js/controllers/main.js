@@ -12,7 +12,7 @@
  * Easing Functions - inspired from http://gizma.com/easing/
  * only considering the t value for the range [0, 1] => [0, 1]
  */
-var EasingFunctions = {
+ var EasingFunctions = {
   // no easing, no acceleration
   linear: function (t) { return t },
   // accelerating from zero velocity
@@ -43,50 +43,54 @@ var EasingFunctions = {
 
 angular.module('ae.main', ['duScroll'])
 
-    .value('duScrollEasing', EasingFunctions.easeOutQuint)
+.value('duScrollEasing', EasingFunctions.easeOutQuint)
 
-  .controller('MainCtrl', function ($scope, $resource) {
-    
-    // Resources
-    var profile = $resource("resources/data/profile.json"),
-        education = $resource("resources/data/education.json"),
-        employment = $resource("resources/data/employment.json"),
-        projects = $resource("resources/data/projects.json"),
-        social = $resource("resources/data/social.json"),
-        testimonials = $resource("resources/data/testimonials.json");
+.controller('MainCtrl', function ($scope, $resource) {
+	
+	// Resources
+	var profile = $resource("resources/data/profile.json"),
+	education = $resource("resources/data/education.json"),
+	employment = $resource("resources/data/employment.json"),
+	projects = $resource("resources/data/projects.json"),
+	works = $resource("resources/data/projects2.json"),
+	social = $resource("resources/data/social.json"),
+	testimonials = $resource("resources/data/testimonials.json");
 
-    // Add to scopes
-    profile.get(function(data){
-        $scope.profile = data;
-    });
-    education.get(function(data){
-        $scope.education = data;
-    });
-    employment.query(function(data){
-        $scope.employment = data;
-    });
-    projects.query(function(data){
-        $scope.projects = data;
-    });
-    testimonials.query(function(data){
-        $scope.testimonials = data;
-    });
-    social.query(function(data){
-        $scope.social = data;
-    });
+	// Add to scopes
+	profile.get(function(data){
+		$scope.profile = data;
+	});
+	education.get(function(data){
+		$scope.education = data;
+	});
+	employment.query(function(data){
+		$scope.employment = data;
+	});
+	projects.query(function(data){
+		$scope.projects = data;
+	});
+	works.get(function(data){
+		$scope.works = data;
+	});
+	testimonials.query(function(data){
+		$scope.testimonials = data;
+	});
+	social.query(function(data){
+		$scope.social = data;
+	});
 
-    // Changing navbar background
-    $(window).scroll(function() {
-        var $mainNav = $('#main-nav');
-        var viewportHeight = $(window).height();
+	// Changing navbar background
+	$(window).scroll(function() {
+		var $mainNav = $('#main-nav');
+		var viewportHeight = $(window).height();
 
-        if ($(this).scrollTop() > (viewportHeight - 70)) {
-            $mainNav.addClass('bg-black');
-        } else {
-            $mainNav.removeClass('bg-black');   
-        }
-    });
+		if ($(this).scrollTop() > (viewportHeight - 70)) {
+			$mainNav.addClass('bg-black');
+		} else {
+			$mainNav.removeClass('bg-black');   
+		}
+	});
 
 
-    
+	
 });

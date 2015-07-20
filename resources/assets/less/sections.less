@@ -4,18 +4,15 @@ section{
     h1{
         text-transform: uppercase;
         display: inline-block;
-        font-weight: 300;
-        border: 2px solid #fff;
         padding: 8px 20px;
         font-size: @font-size-h2;
-        color: #fff;
     }
 }
 
 #home{
     min-height: 100%;
     //background: url('../images/bg/table.jpg') center center no-repeat #333;
-    background-color: @brand-success;
+    background-color: @gray;
     background-size: cover;
 
     h1{
@@ -25,7 +22,7 @@ section{
 
     h2{
         background-color: @brand-primary;
-        color: @brand-success;
+        color: #fff;
         padding: 10px 15px;
         display: inline-block;
         font-size: @font-size-h3;
@@ -36,9 +33,9 @@ section{
     }
 
 }
+
 #about{
-    background-color: @brand-primary;
-    color: #fff;
+   
 
     img{
         margin: 20px;
@@ -54,7 +51,7 @@ section{
 
         &:hover .work-details{
             opacity: 1;
-            background-color: fadeout(@brand-success, 20%);
+            background-color: fadeout(@brand-primary, 20%);
         }
 
         &:hover .work-thumbnail img{
@@ -88,6 +85,11 @@ section{
             .btn{
                 position: relative;
                 z-index: 20;
+
+                &:hover{
+                    background-color: @brand-success;
+                    border-color: @brand-success;
+                }
             }
 
             &:before{
@@ -106,22 +108,17 @@ section{
 
 #experience{
     background-color: #fff;
-    
-    h1{
-        color: @brand-success;
-        border-color: @brand-success;
-    }
 
     .media{
         margin-top: 30px;
 
         h5{
             margin-top: 0;
-            background-color: @brand-success;
+            background-color: @brand-primary;
             color: #fff;
             display: inline-block;
             text-transform: uppercase;
-            padding: 8px 10px 4px;
+            padding: 6px 8px 2px;
             font-size: @font-size-h6;
         }
     }

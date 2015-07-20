@@ -16,8 +16,8 @@ angular.module('adrianenriquezApp', [
     'ngTouch',
     'duScroll',
     'angular.filter',
-    'ui.bootstrap',
     'ae.routes',
     'ae.main',
-    'ae.work'
+    'ae.work',
+    'ae.testimonial'
   ])

@@ -10,12 +10,12 @@
 @gray-base:              #000;
 @gray-darker:            lighten(@gray-base, 13.5%); // #222
 @gray-dark:              lighten(@gray-base, 20%);   // #333
-@gray:                   #D7DADB; // #555
+@gray:                   #2C3E50; // #555
 @gray-light:             lighten(@gray-base, 46.7%); // #777
 @gray-lighter:           lighten(@gray-base, 93.5%); // #eee
 
 @brand-primary:         #6DBCDB;
-@brand-success:         #2C3E50;
+@brand-success:         #FC4349;
 @brand-info:            #5bc0de;
 @brand-warning:         #f0ad4e;
 @brand-danger:          #FC4349;
@@ -26,9 +26,9 @@
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-@body-bg:               #d7dadb;
+@body-bg:               #fff;
 //** Global text color on `<body>`.
-@text-color:            @gray-dark;
+@text-color:            #2C3E50;
 
 //** Global textual link color.
 @link-color:            @brand-primary;
@@ -359,8 +359,8 @@
 @navbar-padding-vertical:          ((@navbar-height - @line-height-computed) / 2);
 @navbar-collapse-max-height:       340px;
 
-@navbar-default-color:             @brand-success;
-@navbar-default-bg:                transparent;
+@navbar-default-color:             #fff;
+@navbar-default-bg:                @gray;
 @navbar-default-border:            transparent;
 
 // Navbar links
