@@ -52,6 +52,15 @@ section{
         margin: -90px 0 0 -275px;
     }
 
+    @media (max-width: @screen-xs-max){
+        background-attachment: initial;
+
+        #home-summary{
+            position: static;
+            margin: 150px 0;
+            width: 100%;
+        }
+    }
 }
 
 #about{
@@ -155,4 +164,8 @@ section{
     background-attachment: fixed;
     background-size: cover;
     color: #fff;
+
+    @media (max-width: @screen-xs-max){
+        background-attachment: initial;
+    }
 }

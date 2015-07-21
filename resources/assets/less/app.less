@@ -39,15 +39,20 @@ html,
     100% {.scale(1.2)}
 }
 
+
+body{
+    padding-top: 44px;
+}
 .notification{
     position: fixed;
-    top: 50%;
+    top: 0;
     right: 0;
-    background-color: @brand-success;
-    width: 180px;
+    width: 100%;
+    background-color: @brand-success;;
     color: #fff;
     padding: 10px;
-
+    z-index: 5000;
+    
     h3{
         margin-top: 0;
     }

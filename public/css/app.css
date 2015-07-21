@@ -10008,6 +10008,14 @@ button.close {
   font-size: 13px;
   margin-bottom: 0;
 }
+@media (max-width: 767px) {
+  .page-footer {
+    text-align: center;
+  }
+  .page-footer .text-right {
+    text-align: center;
+  }
+}
 @media (min-width: 768px) {
   .media .media-left {
     padding-right: 30px;
@@ -10061,6 +10069,9 @@ button.close {
   margin-top: -11px;
   vertical-align: top;
   margin-right: 10px;
+}
+.nav-inline {
+  display: inline-block;
 }
 .nav-inline ul {
   padding-left: 0;
@@ -10160,6 +10171,16 @@ section h2 {
   height: 180px;
   margin: -90px 0 0 -275px;
 }
+@media (max-width: 767px) {
+  #home {
+    background-attachment: initial;
+  }
+  #home #home-summary {
+    position: static;
+    margin: 150px 0;
+    width: 100%;
+  }
+}
 #about {
   background-color: #2c3e50;
   color: #d7dadb;
@@ -10257,6 +10278,11 @@ section h2 {
   background-size: cover;
   color: #fff;
 }
+@media (max-width: 767px) {
+  #contact {
+    background-attachment: initial;
+  }
+}
 body,
 html,
 #ng-view {
@@ -10304,14 +10330,18 @@ html,
     transform: scale(1.2);
   }
 }
+body {
+  padding-top: 44px;
+}
 .notification {
   position: fixed;
-  top: 50%;
+  top: 0;
   right: 0;
+  width: 100%;
   background-color: #fc4349;
-  width: 180px;
   color: #fff;
   padding: 10px;
+  z-index: 5000;
 }
 .notification h3 {
   margin-top: 0;
