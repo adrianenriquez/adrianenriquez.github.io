@@ -4,14 +4,17 @@ section{
     h1{
         text-transform: uppercase;
         display: inline-block;
-        padding: 8px 20px;
+        padding: 8px 12px;
         font-size: @font-size-h2;
+        border-top: 2px solid @brand-success;
+        border-bottom: 2px solid @brand-success;
     }
 }
 
 #home{
     min-height: 100%;
-    background: url('../images/bg/table.jpg') center center no-repeat @gray;
+    background: url('../images/bg/table.jpg') top center no-repeat @gray;
+    background-attachment: fixed;
     background-size: cover;
 
     h1{
@@ -34,7 +37,8 @@ section{
 }
 
 #about{
-   
+    background-color: @brand-primary;
+    color: @gray;
 
     img{
         margin: 20px;
@@ -106,7 +110,7 @@ section{
 }
 
 #experience{
-    background-color: #fff;
+    background-color: @gray;
 
     .media{
         margin-top: 30px;
@@ -121,6 +125,10 @@ section{
             font-size: @font-size-h6;
         }
     }
+}
+
+#testimonials{
+    background-color: @brand-info;
 }
 
 #contact{
