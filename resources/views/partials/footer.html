@@ -1,5 +1,18 @@
 <footer class="page-footer">
     <div class="container">
-        &copy; Copyright 2015 Adrian Enriquez
+        <div class="row">
+            <div class="col-sm-6">
+                &copy; Copyright 2015 Adrian Enriquez
+            </div>
+            <div class="col-sm-6 text-right">
+                <nav class="nav-inline">
+                    <ul>
+                        <li ng-repeat="item in social">
+                            <a href="{{item.url}}" alt="{{item.name}}">{{item.name}}</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </div>
 </footer>

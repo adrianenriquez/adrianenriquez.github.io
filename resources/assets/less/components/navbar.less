@@ -32,3 +32,28 @@
         margin-right: 10px;
     }
 }
+
+.nav-inline{
+    ul{
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+    ul li{
+        display: inline-block;
+        list-style-type: none;
+
+        a{
+            color: @gray;
+            margin: 8px;
+        }
+
+        &:first-child a{
+            margin-left: 0;
+        }
+
+        &:last-child a{
+            margin-right: 0;
+        }
+    }
+}

@@ -15,10 +15,12 @@
 
 <section id="about">
 	<div class="container text-center">
-		<h1>About</h1>
+		<header>
+			<h1>About</h1>
+		</header>
 		<div class="row">
 			<div class="col-sm-offset-3 col-sm-6">
-				<img src="http://namicon.nexucloud.com/AE/128/2c3e50/fc4349">
+				<img src="http://namicon.nexucloud.com/AE/128/fff/fc4349" class="img-circle" alt="Adrian Enriquez Profile Picture">
 				<p>{{profile.summary}}</p>
 				<ul class="btn-social-container">
 					<li ng-repeat="item in social">
@@ -73,10 +75,11 @@
 
 <section id="experience">
 	<div class="container">
+		<header class="text-center">
+			<h1>Experience</h1>
+		</header>
+
 		<div class="row">
-			<div class="col-md-12 text-center">
-				<h1>Experience</h1>
-			</div>
 			<div class="col-sm-offset-3 col-sm-6"> 
 				<div class="media" ng-repeat="experience in employment">
 					<div class="media-left">
@@ -103,7 +106,9 @@
 
 <section id="testimonials" ng-controller="TestimonialsCtrl">
 	<div class="container text-center">
-		<h1>Testimonials</h1>
+		<header>
+			<h1>Testimonials</h1>
+		</header>
 		<div class="owl-carousel">
 			<div class="item">
 				<h2>Chris Brisson</h2>
@@ -123,11 +128,14 @@
 
 <section id="contact">
 	<div class="container text-center">
+		<header>
+			<h1>Contact</h1>
+		</header>
 		<div class="row">
-			<div class="col-md-12">
-				<h1>Contact</h1>
+			<div class="col-sm-offset-2 col-sm-4">
+
 			</div>
-			<div class="col-sm-offset-4 col-sm-4">
+			<div class="col-sm-4">
 				<form action="//formspree.io/me@adrianenriquez.com" method="POST">
 					<div class="form-group">
 						<label>Name</label>
@@ -141,10 +149,8 @@
 						<label>Message</label>
 						<textarea class="form-control" name="message" rows="3" placeholder="Enter your message."></textarea>
 					</div>
-					<button type="submit" class="btn btn-default">Send</button>
+					<button type="submit" class="btn btn-default"><span class="ss-icon ss-envelope"></span> Send Message</button>
 				</form>
-			</div>
-			<div class="col-md-8">
 			</div>
 		</div>
 	</div>
