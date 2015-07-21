@@ -1,6 +1,11 @@
 
 <div ng-include="'/resources/views/partials/navbar.html'"></div>
 
+<div class="notification text-center">
+	<h3><span class="ss-icon ss-alert"></span></h3>
+	This website is still under construction.
+</div>
+
 <!-- Content -->
 <section id="home">
 	<div class="container">
@@ -30,13 +35,13 @@
 					</li>
 				</ul>
 			</div>
-			<div class="col-sm-6">
+			<div class="col-sm-6 text-left">
 				<h2>Skills</h2>
-				<ul class="text-left">
+				<ul>
 					<li ng-repeat="skill in profile.skills">{{skill}}</li>
 				</ul>
 			</div>
-			<div class="col-sm-6">
+			<div class="col-sm-6 text-left">
 				<h2>Services</h2>
 				<ul class="text-left">
 					<li ng-repeat="service in profile.services">{{service}}</li>
@@ -135,7 +140,7 @@
 			<div class="col-sm-offset-2 col-sm-4">
 
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-4 text-left">
 				<form action="//formspree.io/me@adrianenriquez.com" method="POST">
 					<div class="form-group">
 						<label>Name</label>
@@ -149,7 +154,7 @@
 						<label>Message</label>
 						<textarea class="form-control" name="message" rows="3" placeholder="Enter your message."></textarea>
 					</div>
-					<button type="submit" class="btn btn-default"><span class="ss-icon ss-envelope"></span> Send Message</button>
+					<button type="submit" class="btn btn-default"><span class="ss-icon ss-mail"></span> Send Message</button>
 				</form>
 			</div>
 		</div>

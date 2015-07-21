@@ -9,12 +9,42 @@
         "Proficient in PHP, Laravel Framework",
         "Familiar in Node.js",
         "Proficient in Photoshop",
-        "Wordpress and Joomla"
+        "Wordpress and Joomla",
+        "Object Oriented Programming",
+        "Familiar with Gulp.js and Grunt"
     ],
     "services": [
         "Web Design and Development",
-        "Mobile Application Development and Design",
-        "API Services",
+        "Responsive Design",
+        "Pixel Perfect Design",
+        "Mobile Web Design and Development",
+        "Website Redesign",
+        "Logo Design",
+        "UI/UX Design",
+        "API Development",
         "PSD to HTML"
-    ]
+    ],
+    "technologies": {
+        "html_css": [
+            "Twitter Bootstrap",
+            "Foundation Framework",
+            "Polymer",
+            "LESS",
+            "SASS/SCSS"
+        ],
+        "javascript": [
+            "jQuery",
+            "Angular.js"
+        ],
+        "php": [
+            "Laravel Framework",
+            "Slim Framework"
+        ],
+        "storage": [
+            "mySQL",
+            "mongoDB",
+            "Amazon S3",
+            "Firebase"
+        ]
+    }
 }
