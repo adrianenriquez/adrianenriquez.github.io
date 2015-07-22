@@ -45,7 +45,7 @@ angular.module('ae.main', ['duScroll'])
 
 .value('duScrollEasing', EasingFunctions.easeOutQuint)
 
-.controller('MainCtrl', function ($scope, $resource) {
+.controller('MainCtrl', function ($scope, $resource, $rootScope) {
 	
 	// Resources
 	var profile = $resource("resources/data/profile.json"),
@@ -54,7 +54,7 @@ angular.module('ae.main', ['duScroll'])
 	projects = $resource("resources/data/projects.json"),
 	works = $resource("resources/data/projects2.json"),
 	social = $resource("resources/data/social.json"),
-	testimonials = $resource("resources/data/testimonials.json");
+    testimonials = $resource("resources/data/testimonials.json");
 
 	// Add to scopes
 	profile.get(function(data){
@@ -78,6 +78,7 @@ angular.module('ae.main', ['duScroll'])
 	social.query(function(data){
 		$scope.social = data;
 	});
+   
 
 	// Changing navbar background
 	$(window).scroll(function() {
@@ -91,6 +92,9 @@ angular.module('ae.main', ['duScroll'])
 		}
 	});
 
+    $rootScope.previousState = 'home';
+    $rootScope.$on('$stateChangeSuccess', function(ev, to, toParams, from, fromParams){
+        $rootScope.previousState = from.name;
+    })
 
-	
 });
