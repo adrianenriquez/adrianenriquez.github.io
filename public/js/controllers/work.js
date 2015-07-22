@@ -1,8 +1,8 @@
-angular.module('ae.work', [])
+angular.module('ae.work', ['ngAnimate'])
 
 .controller('WorkCtrl', function ($scope, $resource, $modal, $stateParams) {
 
-    var works = $resource("resources/data/projects2.json");
+    var works = $resource("resources/data/projects.json");
     works.get(function(data){
         $scope.works = data;
     });
@@ -19,5 +19,6 @@ angular.module('ae.work', [])
         $scope.$dismiss();
     }
 
-    $scope.selectedWork = selectedWork();
+    $scope.showAllWorks = true;
+    $scope.active = selectedWork();
 });

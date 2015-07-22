@@ -18,6 +18,7 @@ angular.module('adrianenriquezApp', [
     'angular.filter',
     'duScroll',
     'ae.routes',
+    'ae.home',
     'ae.main',
     'ae.work',
     'ae.testimonial'

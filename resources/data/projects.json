@@ -1,12 +1,9 @@
-[
-  {
+{
+  "mkcompass_travel_and_tours": {
     "title": "MK Compass Travel and Tours Website",
-    "permalink": "mkcompass-travel-and-tours",
     "about": "We aim to promote the beauty of the Philippines and let more people explore the hidden treasure of our country at reasonable and affordable way.",
-    "goal": "Create a travel and tours website that can be easily updated using WYSIWYG editor. Also create a simple logo for it.",
-    "development" : "I develop this website using Wordpress, so that the content can be easily updated using WYSIWYG editor.",
+    "responsibilities" : "I develop this website using Wordpress, so that the content can be easily updated using WYSIWYG editor.",
     "website": "http://mkcompasstravel.com",
-    "status": "Online",
     "date": "",
     "category": "website",
     "tags": [
@@ -23,14 +20,11 @@
 
     ]
   },
-  {
+  "ssgbc": {
     "title": "Southern Supereme Global Builders Corporation Website",
-    "permalink": "ssgbc",
     "about": "A newly established dealer of heavy equipment, wholesaler of different kinds of aggregates and renting of other machineries.",
-    "goal": "Created a simple product gallery website.",
-    "development" : "I used Twitter Bootstrap to create this static website.",
+    "responsibilities" : "I used Twitter Bootstrap to create this static website.",
     "website": "http://ssg-bc.com",
-    "status": "Expired",
     "date": "",
     "category": "website",
     "tags": [
@@ -45,15 +39,12 @@
 
     ]
   },
-  {
+  "creative_jooze_online": {
     "title": "Creative Jooze Online",
-    "permalink": "creative-jooze-online",
     "about": "An instructional portal designed for exceptionally creative students, driven to strive for academic excellence, specifically in the College of Fine Arts at the Technological University of the Philippines Manila.",
-    "goal": "Create a student portal for Fine Arts Students of Technological University of the Philippines.",
-    "development" : "We used Joomla to change the content easily and we used Moodle for the professors and instructors to upload the lessons and lectures for their students.",
+    "responsibilities" : "We used Joomla to change the content easily and we used Moodle for the professors and instructors to upload the lessons and lectures for their students.",
     "website": "http://creativejoozeonline.org",
-    "status": "Expired",
-    "date_launched": "",
+    "date": "",
     "category": "website",
     "team_members": [
         {
@@ -74,15 +65,12 @@
 
     ]
   },
-  {
+  "ojt_ue_manila": {
     "title": "OJT UE Manila Website",
-    "permalink": "ojt-ue-manila",
     "about": "A website for announcements and news for On the Job Training Students of University of the East Manila.",
-    "goal": "Create a website than can be easily change and update the content with image gallery.",
-    "development" : "We used Wordpress and a news and annoucement template.",
+    "responsibilities" : "We used Wordpress and a news and annoucement template.",
     "website": "http://ojtuemanila.com",
-    "status": "Expired",
-    "date_launched": "",
+    "date": "",
     "category": "website",
     "team_members": [
         {
@@ -101,15 +89,12 @@
 
     ]
   },
-  {
+  "makeup_by_russell": {
     "title": "Make-up by Russell",
-    "permalink": "makeup-by-russell",
     "about": "An image gallery portfolio website.",
-    "goal": "Create a simple gallery website.",
-    "development" : "I used native PHP and mySQL to store image links and content.",
+    "responsibilities" : "I used native PHP and mySQL to store image links and content.",
     "website": "http://makeupbyrussell.com",
-    "status": "Online",
-    "date_launched": "",
+    "date": "",
     "category": "website",
     "tags": [
         "PHP", 
@@ -122,15 +107,12 @@
 
     ]
   },
-  {
+  "git_lucky": {
     "title": "Git Lucky Team Portfolio Website",
-    "permalink": "git-lucky",
     "about": "A static portfolio website.",
-    "goal": "Create a simple team portfolio website that shows the team skills and works.",
-    "development" : "I used native PHP and mySQL to store image links and content.",
+    "responsibilities" : "I used native PHP and mySQL to store image links and content.",
     "website": "http://gitlucky.herokuapp.com",
-    "status": "Online",
-    "date_launched": "",
+    "date": "",
     "category": "website",
     "tags": [
         "Bootstrap", 
@@ -143,15 +125,12 @@
 
     ]
   },
-  {
+  "powered_by_pace": {
     "title": "Powered by PACE",
-    "permalink": "powered-by-pace",
     "about": "",
-    "goal": "",
-    "development" : "",
+    "responsibilities" : "",
     "website": "",
-    "status": "Online",
-    "date_launched": "",
+    "date": "",
     "category": "website",
     "tags": [
         "CSS", 
@@ -164,15 +143,13 @@
 
     ]
   },
-  {
+  "irisbook": {
     "title": "IRISbook Website",
-    "permalink": "irisbook",
     "about": "A static portfolio website.",
     "goal": "Create a simple team portfolio website that shows the team skills and works.",
-    "development" : "I used native PHP and mySQL to store image links and content.",
+    "responsibilities" : "I used native PHP and mySQL to store image links and content.",
     "website": "http://irisbook.com",
-    "status": "Online",
-    "date_launched": "",
+    "date": "",
     "category": "website",
     "tags": [
         "Bootstrap", 
@@ -185,15 +162,12 @@
 
     ]
   },
-  {
+  "jvpfi": {
     "title": "Jesuit Volunteer Philippines Foundation, Inc.",
-    "permalink": "jvpfi",
     "about": "JVP is a community dedicated to the task of nation-building by promoting volunteerism and serving as development network in increasing literacy, creating more equitable access to health services, education and community life, especially for the marginalized and underprivileged. We are also a network of leaders in our own communities or fields of concerns.",
-    "goal": "To create a website that promotes JVP and to attract more volunteers and donations.",
-    "development" : "We created a responsive static website using Bootstrap and CSS Animations.",
+    "responsibilities" : "We created a responsive static website using Bootstrap and CSS Animations.",
     "website": "http://gitlucky.herokuapp.com",
-    "status": "Online",
-    "date_launched": "",
+    "date": "",
     "category": "website",
     "team_members": [
         {
@@ -213,15 +187,12 @@
 
     ]
   },
-  {
+  "skizzah": {
     "title": "Skizzah",
-    "permalink": "skizzah",
     "about": "",
-    "goal": "",
-    "development" : "",
+    "responsibilities" : "",
     "website": "http://skizzah.com",
-    "status": "Online",
-    "date_launched": "",
+    "date": "",
     "category": "website",
     "team_members": [
         {
@@ -242,15 +213,12 @@
 
     ]
   },
-  {
+  "desimemes": {
     "title": "Desimemes",
-    "permalink": "desimemes",
     "about": "",
-    "goal": "",
-    "development" : "",
+    "responsibilities" : "",
     "website": "",
-    "status": "Offline",
-    "date_launched": "",
+    "date": "",
     "category": "website",
     "tags": [
         "Node.js", 
@@ -266,15 +234,12 @@
 
     ]
   },
-  {
+  "pizza_papa_johns": {
     "title": "Pizza Papa John's - Azerbaijan",
-    "permalink": "pizza-papa-johns",
     "about": "",
-    "goal": "",
-    "development" : "",
+    "responsibilities" : "",
     "website": "",
-    "status": "Online",
-    "date_launched": "",
+    "date": "",
     "category": "website",
     "tags": [
         "CSS", 
@@ -287,15 +252,12 @@
 
     ]
   },
-  {
+  "fm_reyman": {
     "title": "FM Reyman Trucking Services Inc. Website",
-    "permalink": "fm-reyman",
     "about": "",
-    "goal": "",
-    "development" : "",
+    "responsibilities" : "",
     "website": "reyman.ph",
-    "status": "Online",
-    "date_launched": "",
+    "date": "",
     "category": "website",
     "tags": [
         "CSS", 
@@ -308,15 +270,12 @@
 
     ]
   },
-  {
+  "call_loop": {
     "title": "Call Loop",
-    "permalink": "call-loop",
     "about": "",
-    "goal": "",
-    "development" : "",
+    "responsibilities" : "",
     "website": "",
-    "status": "Online",
-    "date_launched": "",
+    "date": "",
     "category": "website",
     "tags": [
         "CSS", 
@@ -329,14 +288,12 @@
 
     ]
   },
-  {
+  "phone_checkr": {
     "title": "Phone Checkr",
     "about": "",
-    "goal": "",
-    "development" : "",
+    "responsibilities" : "",
     "website": "",
-    "status": "Online",
-    "date_launched": "",
+    "date": "",
     "category": "website",
     "tags": [
         "CSS", 
@@ -349,14 +306,12 @@
 
     ]
   },
-  {
+  "kicka_conference": {
     "title": "Kicka Conference",
     "about": "",
-    "goal": "",
-    "development" : "",
+    "responsibilities" : "",
     "website": "kickaconference.com",
-    "status": "Online",
-    "date_launched": "",
+    "date": "",
     "category": "website",
     "tags": [
         "CSS", 
@@ -369,14 +324,12 @@
 
     ]
   },
-  {
+  "salt": {
     "title": "SALT",
     "about": "",
-    "goal": "",
-    "development" : "",
+    "responsibilities" : "",
     "website": "kickaconference.com",
-    "status": "Online",
-    "date_launched": "",
+    "date": "",
     "category": "website",
     "tags": [
         "CSS", 
@@ -389,4 +342,4 @@
 
     ]
   }
-]
+}

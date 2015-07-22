@@ -3110,25 +3110,25 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: transparent;
+  background-color: #2c3e50;
   border-color: #ffffff;
 }
 .btn-primary:focus,
 .btn-primary.focus {
   color: #ffffff;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #1a242f;
   border-color: #bfbfbf;
 }
 .btn-primary:hover {
   color: #ffffff;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #1a242f;
   border-color: #e0e0e0;
 }
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #ffffff;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #1a242f;
   border-color: #e0e0e0;
 }
 .btn-primary:active:hover,
@@ -3141,7 +3141,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active.focus,
 .open > .dropdown-toggle.btn-primary.focus {
   color: #ffffff;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0d1318;
   border-color: #bfbfbf;
 }
 .btn-primary:active,
@@ -3167,11 +3167,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: transparent;
+  background-color: #2c3e50;
   border-color: #ffffff;
 }
 .btn-primary .badge {
-  color: transparent;
+  color: #2c3e50;
   background-color: #ffffff;
 }
 .btn-success {
@@ -5940,15 +5940,15 @@ button.close {
   bottom: 0;
   left: 0;
   z-index: 1040;
-  background-color: #000000;
+  background-color: #2c3e50;
 }
 .modal-backdrop.fade {
   opacity: 0;
   filter: alpha(opacity=0);
 }
 .modal-backdrop.in {
-  opacity: 0.5;
-  filter: alpha(opacity=50);
+  opacity: 0.8;
+  filter: alpha(opacity=80);
 }
 .modal-header {
   padding: 15px;
@@ -10125,6 +10125,9 @@ button.close {
   padding: 10px;
   font-size: 24px;
 }
+.modal img {
+  max-width: 100%;
+}
 section {
   padding: 60px 0;
 }
@@ -10270,7 +10273,7 @@ section h2 {
   font-size: 13px;
 }
 #testimonials {
-  background-color: #6dbcdb;
+  background-color: #fff;
 }
 #contact {
   background: url('../images/bg/phone.jpg') center bottom no-repeat #2c3e50;
@@ -10329,20 +10332,4 @@ html,
     -o-transform: scale(1.2);
     transform: scale(1.2);
   }
-}
-body {
-  padding-top: 44px;
-}
-.notification {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 100%;
-  background-color: #fc4349;
-  color: #fff;
-  padding: 10px;
-  z-index: 5000;
-}
-.notification h3 {
-  margin-top: 0;
 }

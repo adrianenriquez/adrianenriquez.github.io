@@ -11,7 +11,7 @@ angular.module('ae.routes', ['ui.router'])
         .state('home', {
             url: "/",
             templateUrl : "resources/views/home.html",
-            controller  : "MainCtrl"
+            controller  : "HomeCtrl"
         })
 
         // route for the about page
@@ -20,7 +20,8 @@ angular.module('ae.routes', ['ui.router'])
             onEnter: function ($state, $modal, $rootScope){
                 $modal.open({
                     templateUrl: 'resources/views/partials/works-modal.html',
-                    controller: 'WorkCtrl'
+                    controller: 'WorkCtrl',
+                    size: 'md'
                 }).result.finally(function(){
                     $state.go($rootScope.previousState);
                 })

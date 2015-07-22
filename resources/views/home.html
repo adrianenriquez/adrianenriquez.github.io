@@ -1,10 +1,10 @@
 
 <div ng-include="'/resources/views/partials/navbar.html'"></div>
 
-<div class="notification text-center">
+<!-- <div class="notification text-center">
 	<span class="ss-icon ss-alert"></span> This website is still under construction.
 </div>
-
+-->
 <!-- Content -->
 <section id="home">
 	<div class="container">
@@ -34,11 +34,19 @@
 					</li>
 				</ul>
 			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+			</div>
 			<div class="col-sm-6 text-left">
 				<h2>Skills</h2>
 				<ul>
 					<li ng-repeat="skill in profile.skills">{{skill}}</li>
 				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
 			</div>
 			<div class="col-sm-6 text-left">
 				<h2>Services</h2>
@@ -55,9 +63,9 @@
 		<header class="text-center">
 			<h1>Works</h1>
 		</header>
-		<div class="row">
-			<div  id="work-item-container" class="col-md-4 col-sm-6" ng-repeat="project in projects | reverse">
-				<div ng-if="$index < 6" class="work-item">
+		<div id="work-item-container" class="row">
+			<div  class="col-md-4 col-sm-6" ng-repeat="project in projects">
+				<div ng-if="$index <= 5" class="work-item">
 					<div class="work-thumbnail">
 						<img ng-src="public/images/works/640/{{ project.thumbnail }}">
 					</div>
@@ -70,9 +78,26 @@
 					</div>
 				</div>
 			</div>
-
-			<div class="col-sm-12">
-				<button class="btn btn-primary">View All</button>
+			<div collapse="showAllWorks">
+				<div class="col-md-4 col-sm-6" ng-repeat="project in projects" >
+					<div ng-if="$index >= 6" class="work-item">
+						<div class="work-thumbnail">
+							<img ng-src="public/images/works/640/{{ project.thumbnail }}">
+						</div>
+						<div class="work-details">
+							<h4>{{ project.title }}</h4>
+							<div class="col-xs-6 col-xs-offset-3"><hr></div>
+							<div class="clearfix"></div>
+							<!-- <a href="#/work/{{ project.permalink }}" class="btn btn-primary">View</a> -->
+							<a ui-sref="home.work({permalink: '{{project.permalink}}'})" class="btn btn-primary">View</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 text-center">
+				<button class="btn btn-primary" ng-show="showAllWorks"  ng-click="showAllWorks = !showAllWorks">
+					<span class="ss-icon ss-dropdown"></span> View All
+				</button>
 			</div>
 		</div>
 	</div>

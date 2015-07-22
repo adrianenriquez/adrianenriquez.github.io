@@ -1,12 +1,14 @@
-<div class="modal-header">
-    <h3 class="modal-title">{{ works[selectedWork].title }}</h3>
-</div>
 <div class="modal-body">
-    {{selectedWork}}
-    {{ works[selectedWork] }}
-</div>
-<div class="modal-footer">
-    <button class="btn btn-primary" ng-click="ok()">OK</button>
-    <button class="btn btn-warning" ng-click="closeModal()">Cancel</button>
+    <img ng-src="public/images/works/640/{{ works[active].thumbnail }}" alt="{{ works[active].title }}">
+    <h3 class="modal-title">{{ works[active].title }}</h3>
+    <h4>Position</h4>
+    <p><span class="ss-icon ss-clock"></span> {{ works[active].date }}</p>
+    <p><span class="ss-icon ss-tag"></span> 
+        <span class="label label-default" ng-repeat="tag in works[active].tags"> {{tag}} </span>
+    </p>
+    <h4>About</h4>
+    <p>{{ works[active].about }}</p>
+    <h4>Responsibilities</h4>
+    <p>{{ works[active].responsibilities }}</p>
 </div>
 </script>

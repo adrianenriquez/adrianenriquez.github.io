@@ -41,45 +41,12 @@
   easeInOutQuint: function (t) { return t<.5 ? 16*t*t*t*t*t : 1+16*(--t)*t*t*t*t }
 }
 
-angular.module('ae.main', ['duScroll'])
+angular.module('ae.home', ['duScroll','ngAnimate'])
 
 .value('duScrollEasing', EasingFunctions.easeOutQuint)
 
-.controller('MainCtrl', function ($scope, $resource, $rootScope) {
+.controller('HomeCtrl', function ($rootScope) {
 	
-	// Resources
-	var profile = $resource("resources/data/profile.json"),
-	education = $resource("resources/data/education.json"),
-	employment = $resource("resources/data/employment.json"),
-	projects = $resource("resources/data/projects.json"),
-	works = $resource("resources/data/projects2.json"),
-	social = $resource("resources/data/social.json"),
-    testimonials = $resource("resources/data/testimonials.json");
-
-	// Add to scopes
-	profile.get(function(data){
-		$scope.profile = data;
-	});
-	education.get(function(data){
-		$scope.education = data;
-	});
-	employment.query(function(data){
-		$scope.employment = data;
-	});
-	projects.query(function(data){
-		$scope.projects = data;
-	});
-	works.get(function(data){
-		$scope.works = data;
-	});
-	testimonials.query(function(data){
-		$scope.testimonials = data;
-	});
-	social.query(function(data){
-		$scope.social = data;
-	});
-   
-
 	// Changing navbar background
 	$(window).scroll(function() {
 		var $mainNav = $('#main-nav');
