@@ -4,47 +4,36 @@
     "address": "Philippines",
     "email": "me@adrianenriquez.com",
     "summary": "I'm Adrian Enriquez, a freelance web developer with more than 2 years of experience. I design and develop websites for clients from all around the world as a freelancer. Constantly learning and experiencing new things.",
-    "skills": [
-        "Superior skills in HTML and CSS/CSS3",
-        "Proficient in PHP, Laravel Framework",
-        "Familiar in Node.js",
-        "Proficient in Photoshop",
-        "Wordpress and Joomla",
-        "Object Oriented Programming",
-        "Familiar with Gulp.js and Grunt"
-    ],
     "services": [
-        "Web Design and Development",
-        "Responsive Design",
-        "Pixel Perfect Design",
-        "Mobile Web Design and Development",
-        "Website Redesign",
-        "Logo Design",
-        "UI/UX Design",
-        "API Development",
-        "PSD to HTML"
-    ],
-    "technologies": {
-        "html_css": [
-            "Twitter Bootstrap",
-            "Foundation Framework",
-            "Polymer",
-            "LESS",
-            "SASS/SCSS"
-        ],
-        "javascript": [
-            "jQuery",
-            "Angular.js"
-        ],
-        "php": [
-            "Laravel Framework",
-            "Slim Framework"
-        ],
-        "storage": [
-            "mySQL",
-            "mongoDB",
-            "Amazon S3",
-            "Firebase"
-        ]
-    }
+        {
+            "name": "UI/UX Design",
+            "description": "I sketch and wireframe interfaces for mobile and web, create UI mockups using moqups.com web app and Adobe Photoshop.",
+            "icon": "pen"
+        },
+        {
+            "name": "Front-end Development",
+            "description": "Superior skills in HTML(5), CSS(3), Responsive and Pixel Perfect Design. Expert in Twitter Bootstrap framework and I like converting PSD to HTML. Proficient in LESS/SCSS, Gulp.js, Grunt, Javascript, jQuery, Angular.js. Familiar with other html/css frameworks like Foundation and Polymer.",
+            "icon": "laptop"
+        },
+        {
+            "name": "Back-end Development",
+            "description": "I write clean codes using best practices and Object Oriented Programming(OOP). I'm good in php and my favorite framework is Laravel. Familiar with Node.js and express.js framework. I also develop REST APIs.",
+            "icon": "fork"
+        },
+        {
+            "name": "Mobile Development",
+            "description": "I develop mobile applications using Phonegap and Ionic Framework.",
+            "icon": "smartphone"
+        },
+        {
+            "name": "Content Management Sytem(CMS)",
+            "description": "I can setup, customize and/or craete Wordpress and Joomla Templates.",
+            "icon": "share"
+        },
+        {
+            "name": "Other",
+            "description": "I'm familiar with MySQL, MongoDB, Firebase. Good in using Version Control System like Git and SVN. ",
+            "icon": "lightbulb"
+        }
+    ]
 }

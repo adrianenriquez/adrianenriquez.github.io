@@ -1,14 +1,22 @@
+<header class="modal-header text-center">
+    <h3 class="modal-title">{{ works[active].title }}</h3>
+</header>
 <div class="modal-body">
     <img ng-src="public/images/works/640/{{ works[active].thumbnail }}" alt="{{ works[active].title }}">
-    <h3 class="modal-title">{{ works[active].title }}</h3>
-    <h4>Position</h4>
-    <p><span class="ss-icon ss-clock"></span> {{ works[active].date }}</p>
-    <p><span class="ss-icon ss-tag"></span> 
-        <span class="label label-default" ng-repeat="tag in works[active].tags"> {{tag}} </span>
-    </p>
-    <h4>About</h4>
-    <p>{{ works[active].about }}</p>
-    <h4>Responsibilities</h4>
-    <p>{{ works[active].responsibilities }}</p>
+    
+    <div class="row">
+        <div class="col-sm-4">
+            <button class="btn btn-info">Launch Website</button>
+            <p><span class="ss-icon ss-clock"></span> {{ works[active].date }}</p>
+        </div>
+        <div class="col-sm-8">
+            <h4>About</h4>
+            <p>{{ works[active].about }}</p>
+            <h4>Responsibilities</h4>
+            <p>{{ works[active].responsibilities }}</p>
+            <p><span class="label label-default" ng-repeat="tag in works[active].tags"> {{tag}} </span></p>
+        </div>
+    </div>
+
 </div>
 </script>

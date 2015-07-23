@@ -1,5 +1,10 @@
 [
     {
+        "name": "Email",
+        "icon": "envelope",
+        "url": "mailto:me@adrianenriquez.com"
+    },
+    {
         "name": "LinkedIn",
         "icon": "linkedin",
         "url": "http://ph.linkedin.com/in/adrianenriquez"
@@ -19,4 +24,5 @@
         "icon": "twitter",
         "url": "https://twitter.com/eydreeyawn"
     }
+    
 ]

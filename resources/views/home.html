@@ -20,11 +20,11 @@
 <section id="about">
 	<div class="container text-center">
 		<header>
-			<h1>About</h1>
+			<h1>About Me</h1>
 		</header>
 		<div class="row">
 			<div class="col-sm-offset-3 col-sm-6">
-				<img src="http://namicon.nexucloud.com/AE/128/fff/fc4349" class="img-circle" alt="Adrian Enriquez Profile Picture">
+				<img src="http://namicon.nexucloud.com/AE/128/2C3E50/fff" class="img-circle" alt="Adrian Enriquez Profile Picture">
 				<p>{{profile.summary}}</p>
 				<ul class="btn-social-container">
 					<li ng-repeat="item in social">
@@ -35,25 +35,41 @@
 				</ul>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-sm-6">
-			</div>
-			<div class="col-sm-6 text-left">
-				<h2>Skills</h2>
-				<ul>
-					<li ng-repeat="skill in profile.skills">{{skill}}</li>
-				</ul>
+	</div>
+	<div id="stats-container">
+		<div class="container container-inverted">
+			<div class="row text-center">
+				<div class="col-sm-4">
+					<h3>20+</h3>
+					<h5 class="text-muted">Projects Done</h5>
+				</div>
+				<div class="col-sm-4">
+					<h3>10+</h3>
+					<h5 class="text-muted">Clients Worked With</h5>
+				</div>
+				<div class="col-sm-4">
+					<h3>2+</h3>
+					<h5 class="text-muted">Years of Experience</h5>
+				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-sm-6">
+	</div>
+</section>
+
+
+<section id="skills">
+	<div class="container text-center">
+		<header>
+			<h1>Skills and Services</h1>
+		</header>
+		<div class="row text-center">
+			<div class="col-sm-4 skill-item" ng-repeat-start="service in profile.services">
+				<span class="ss-icon ss-{{service.icon}}"></span>
+				<h4>{{service.name}}</h4>
+				<p>{{service.description}}</p>
 			</div>
-			<div class="col-sm-6 text-left">
-				<h2>Services</h2>
-				<ul class="text-left">
-					<li ng-repeat="service in profile.services">{{service}}</li>
-				</ul>
-			</div>
+			<div class="clearfix" ng-if="$index%3==2"></div>
+			<div ng-repeat-end=""></div>
 		</div>
 	</div>
 </section>
@@ -124,7 +140,7 @@
 						<p>{{experience.description}}</p>
 						<ul class="tags">
 							<li ng-repeat="tags in experience.tags">
-								<span class="label label-default">{{tags}}</span>
+								<span class="label label-info">{{tags}}</span>
 							</li>
 						</ul>
 					</div>
@@ -139,18 +155,22 @@
 		<header>
 			<h1>Testimonials</h1>
 		</header>
-		<div class="owl-carousel">
-			<div class="item">
-				<h2>Chris Brisson</h2>
-				<h3>Call Loop</h3>
-				<h4>Position</h4>
-				<p>Worked fast, on time, on budget, easy to work with and superb deliverable.</p>
-			</div>
-			<div class="item">
-				<h2>Chris Brisson</h2>
-				<h3>Call Loop</h3>
-				<h4>Position</h4>
-				<p>Message</p>
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-4">
+				<div class="owl-carousel">
+					<div class="item">
+						<h4>Worked fast, on time, on budget, easy to work with and superb deliverable.</h4>
+						<h3>Chris Brisson</h3>
+						<h6>Founder &amp; CEO</h6>
+						<h5>Call Loop</h5>
+					</div>
+					<div class="item">
+						<h4>Adrian is AMAZING and the quality of work is top notch. Thanks for all the great work and help!</h4>
+						<h3>Jon F.</h3>
+						<h6>Founder</h6>
+						<h5>Smaaht | Informed Fans</h5>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -162,10 +182,7 @@
 			<h1>Contact</h1>
 		</header>
 		<div class="row">
-			<div class="col-sm-offset-2 col-sm-4">
-
-			</div>
-			<div class="col-sm-4 text-left">
+			<div class="col-sm-offset-4 col-sm-4 text-left">
 				<form action="//formspree.io/me@adrianenriquez.com" method="POST">
 					<div class="form-group">
 						<label>Name</label>
@@ -179,12 +196,11 @@
 						<label>Message</label>
 						<textarea class="form-control" name="message" rows="3" placeholder="Enter your message."></textarea>
 					</div>
-					<button type="submit" class="btn btn-default"><span class="ss-icon ss-mail"></span> Send Message</button>
+					<button type="submit" class="btn btn-info"><span class="ss-icon ss-mail"></span> Send Message</button>
 				</form>
 			</div>
 		</div>
 	</div>
 </section>
 
-<div ng-include="'resources/views/works-modal.html'"></div>
 <div ng-include="'resources/views/partials/footer.html'"></div>
