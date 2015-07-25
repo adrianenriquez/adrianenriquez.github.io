@@ -2,27 +2,38 @@
     {
         "name": "Email",
         "icon": "envelope",
-        "url": "mailto:me@adrianenriquez.com"
+        "url": "mailto:me@adrianenriquez.com",
+        "alt": "me@adrianenriquez.com"
+    },
+    {
+        "name": "Resume",
+        "icon": "file-pdf-o",
+        "url": "public/downloads/adrian-enriquez-cv.pdf",
+        "alt": "Download Resume"
     },
     {
         "name": "LinkedIn",
         "icon": "linkedin",
-        "url": "http://ph.linkedin.com/in/adrianenriquez"
+        "url": "http://ph.linkedin.com/in/adrianenriquez",
+        "alt": "LinkedIn"
     },
     {
         "name": "Stack Overflow",
         "icon": "stack-overflow",
-        "url": "http://stackoverflow.com/users/3126509/adrian-enriquez"
+        "url": "http://stackoverflow.com/users/3126509/adrian-enriquez",
+        "alt": "Stack Overflow"
     },
     {
         "name": "GitHub",
         "icon": "github",
-        "url": "https://github.com/eydreeyawn"
+        "url": "https://github.com/eydreeyawn",
+        "alt": "Github"
     },
     {
         "name": "Twitter",
         "icon": "twitter",
-        "url": "https://twitter.com/eydreeyawn"
+        "url": "https://twitter.com/eydreeyawn",
+        "alt": "Twitter"
     }
     
 ]

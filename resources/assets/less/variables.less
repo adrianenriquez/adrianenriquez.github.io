@@ -26,7 +26,7 @@
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-@body-bg:               @gray;
+@body-bg:               @gray-lighter;
 //** Global text color on `<body>`.
 @text-color:            #2C3E50;
 
@@ -360,12 +360,12 @@
 @navbar-collapse-max-height:       340px;
 
 @navbar-default-color:             #fff;
-@navbar-default-bg:                transparent;
+@navbar-default-bg:                @brand-primary;
 @navbar-default-border:            transparent;
 
 // Navbar links
-@navbar-default-link-color:                #fff;
-@navbar-default-link-hover-color:          rgba(255,255,255,1);
+@navbar-default-link-color:                @gray;
+@navbar-default-link-hover-color:          #fff;
 @navbar-default-link-hover-bg:             transparent;
 @navbar-default-link-active-color:         #fff;
 @navbar-default-link-active-bg:            darken(@navbar-default-bg, 6.5%);

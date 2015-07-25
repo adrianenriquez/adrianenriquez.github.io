@@ -43,25 +43,27 @@
 
 angular.module('ae.home', ['duScroll','ngAnimate'])
 
-.value('duScrollEasing', EasingFunctions.easeOutQuint)
+.value('duScrollEasing', EasingFunctions.easeInOutQuint)
 
 .controller('HomeCtrl', function ($rootScope) {
 	
-	// Changing navbar background
-	$(window).scroll(function() {
-		var $mainNav = $('#main-nav');
-		var viewportHeight = $(window).height();
+    var stickyNav = function(){
+        $("#main-nav").sticky({topSpacing:0});
+    }
+  
+    var setupPreviousState = function(){
+        $rootScope.previousState = 'home';
+        $rootScope.$on('$stateChangeSuccess', function(ev, to, toParams, from, fromParams){
+            $rootScope.previousState = from.name;
+        })  
+    }
+    
 
-		if ($(this).scrollTop() > (viewportHeight - 70)) {
-			$mainNav.addClass('bg-black');
-		} else {
-			$mainNav.removeClass('bg-black');   
-		}
-	});
+    var init = function(){
+        stickyNav();
+        setupPreviousState();
+    }
 
-    $rootScope.previousState = 'home';
-    $rootScope.$on('$stateChangeSuccess', function(ev, to, toParams, from, fromParams){
-        $rootScope.previousState = from.name;
-    })
+    init();
 
 });
