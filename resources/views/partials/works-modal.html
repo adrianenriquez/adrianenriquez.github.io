@@ -1,18 +1,20 @@
 <header class="modal-header text-center">
     <h3 class="modal-title">{{ works[active].title }}</h3>
+    <a class="modal-close" ng-click="closeModal()"><span class="ss-icon ss-delete"></span></a>
 </header>
 <div class="modal-body">
-    <img ng-src="public/images/works/640/{{ works[active].thumbnail }}" alt="{{ works[active].title }}">
+    <img ng-src="public/images/works/{{ works[active].thumbnail }}" noretina alt="{{ works[active].title }}">
     
-    <div class="row">
-        <div class="col-sm-4">
-            <button class="btn btn-info">Launch Website</button>
+    <div class="row modal-main">
+        <div class="col-sm-5">
+            <a href="{{ works[active].website }}" target="_blank" class="btn btn-info btn-block btn-launch" ng-show="works[active].website.length">Launch Website</a>
             <p><span class="ss-icon ss-clock"></span> {{ works[active].date }}</p>
+            <p><span class="ss-icon ss-briefcase"></span> {{ works[active].job }}</p>
         </div>
-        <div class="col-sm-8">
-            <h4>About</h4>
+        <div class="col-sm-7">
+            <h4 class="text-success">About</h4>
             <p>{{ works[active].about }}</p>
-            <h4>Responsibilities</h4>
+            <h4 class="text-success">Responsibilities</h4>
             <p>{{ works[active].responsibilities }}</p>
             <p><span class="label label-default" ng-repeat="tag in works[active].tags"> {{tag}} </span></p>
         </div>

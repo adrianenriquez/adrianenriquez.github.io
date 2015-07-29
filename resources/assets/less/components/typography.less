@@ -27,6 +27,14 @@ section{
     h2{
         font-size: @font-size-h3;
     }
+
+    @media (max-width: @screen-xs-max){
+        header{
+            h1{
+                font-size: 30px;
+            }
+        }
+    }
 }
 
 .tags{
@@ -50,4 +58,8 @@ section{
 
 label{
     font-weight: 400;
+}
+
+.text-success{
+    color: @brand-success;
 }

@@ -17,20 +17,24 @@
         margin-bottom: 0;
     }
 
-    @media (max-width: @screen-xs-max){
-        text-align: center;
-
-        .text-right{
-            text-align: center;
-        }
-    }
-
     #footer-logo{
         opacity: 0.8;
         .transition(opacity 0.3s ease-in-out);
 
         &:hover{
             opacity: 1;
+        }
+    }
+
+    @media (max-width: @screen-xs-max){
+        text-align: center;
+
+        .text-right{
+            text-align: center;
+        }
+
+        #footer-logo img{
+            margin: 20px 0;
         }
     }
 }

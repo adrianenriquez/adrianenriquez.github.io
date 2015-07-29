@@ -1589,7 +1589,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1130px;
+    width: 1050px;
   }
 }
 .container-fluid {
@@ -12860,14 +12860,6 @@ button.close {
   font-size: 14px;
   margin-bottom: 0;
 }
-@media (max-width: 767px) {
-  .page-footer {
-    text-align: center;
-  }
-  .page-footer .text-right {
-    text-align: center;
-  }
-}
 .page-footer #footer-logo {
   opacity: 0.8;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -12876,6 +12868,17 @@ button.close {
 }
 .page-footer #footer-logo:hover {
   opacity: 1;
+}
+@media (max-width: 767px) {
+  .page-footer {
+    text-align: center;
+  }
+  .page-footer .text-right {
+    text-align: center;
+  }
+  .page-footer #footer-logo img {
+    margin: 20px 0;
+  }
 }
 @media (min-width: 768px) {
   .media .media-left {
@@ -12887,7 +12890,10 @@ button.close {
     text-align: center;
   }
   .media .media-left {
-    display: inline-block;
+    display: none;
+  }
+  .media .media-heading {
+    font-size: 24px;
   }
 }
 ::selection {
@@ -12908,6 +12914,11 @@ section header h1 {
 section h2 {
   font-size: 28px;
 }
+@media (max-width: 767px) {
+  section header h1 {
+    font-size: 30px;
+  }
+}
 .tags {
   padding-left: 0;
 }
@@ -12925,6 +12936,9 @@ section h2 {
 }
 label {
   font-weight: 400;
+}
+.text-success {
+  color: #fc4349;
 }
 .navbar {
   width: 100%;
@@ -12993,6 +13007,17 @@ label {
 .nav-inline ul li:last-child a {
   margin-right: 0;
 }
+@media (max-width: 767px) {
+  .nav-inline ul li a {
+    margin: 8px;
+  }
+  .nav-inline ul li:first-child a {
+    margin-left: 8px;
+  }
+  .nav-inline ul li:last-child a {
+    margin-right: 8px;
+  }
+}
 .btn {
   border-width: 2px;
   border-radius: 0;
@@ -13038,19 +13063,48 @@ label {
 .btn-social-container li a:hover {
   background-color: #d7dadb;
 }
-.modal header h3 {
+.modal .modal-dialog {
+  margin-top: 45px;
+}
+.modal .modal-header h3 {
   font-size: 20px;
   display: inline-block;
   padding: 4px 10px;
   border-top: 2px solid #fc4349;
   border-bottom: 2px solid #fc4349;
 }
-.modal header h4 {
+.modal .modal-header h4 {
   font-size: 16px;
   color: #d7dadb;
 }
-.modal img {
+.modal .modal-body img {
   max-width: 100%;
+}
+.modal .modal-body p {
+  margin-bottom: 5px;
+}
+.modal .btn-launch {
+  margin-bottom: 10px;
+}
+.modal .modal-main {
+  margin-top: 25px;
+}
+.modal .modal-close {
+  font-size: 28px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-top: -40px;
+  margin-left: -14px;
+  color: #fff;
+  opacity: 0.8;
+  -webkit-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+.modal .modal-close:hover {
+  opacity: 1;
+  text-decoration: none;
 }
 section {
   padding: 60px 0;
@@ -13063,6 +13117,7 @@ section header {
   background: url('../images/bg/table.jpg') top center no-repeat #2c3e50;
   background-attachment: fixed;
   background-size: cover;
+  padding: 0;
 }
 #home h1 {
   color: #fff;
@@ -13110,6 +13165,11 @@ section header {
   padding: 20px 0 30px;
   margin: 30px 0 0;
 }
+@media (max-width: 767px) {
+  #about #stats-container h5 {
+    font-size: 12px;
+  }
+}
 #skills {
   background-color: #f4f4f4;
 }
@@ -13127,6 +13187,11 @@ section header {
 }
 #skills .skill-item h4 {
   color: #fc4349;
+}
+@media (max-width: 767px) {
+  #skills .skill-item {
+    padding: 10px 15px;
+  }
 }
 #works {
   background-color: #fff;
@@ -13170,7 +13235,7 @@ section header {
   text-align: center;
   color: #fff;
   height: 100%;
-  padding: 50px 20px;
+  padding: 40px 20px;
   -webkit-transition: opacity 0.3s;
   -o-transition: opacity 0.3s;
   transition: opacity 0.3s;
@@ -13178,6 +13243,10 @@ section header {
 #works .work-item .work-details .btn {
   position: relative;
   z-index: 20;
+}
+#works .work-item .work-details hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 #works .work-item .work-details:before {
   content: '';
@@ -13189,6 +13258,11 @@ section header {
   left: 10px;
   right: 10px;
   bottom: 10px;
+}
+@media (max-width: 767px) {
+  #works .work-item .work-details {
+    padding: 40px 15px;
+  }
 }
 #works #all-works-container {
   opacity: 1;

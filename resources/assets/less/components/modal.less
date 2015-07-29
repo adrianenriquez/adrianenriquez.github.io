@@ -1,7 +1,12 @@
 // modal.less
 
 .modal{
-    header{
+
+    .modal-dialog{
+        margin-top: 45px;
+    }
+
+    .modal-header{
         h3{
             font-size: @font-size-h4;
             display: inline-block;
@@ -14,7 +19,40 @@
             color: @gray;
         }
     }
-    img{
-        max-width: 100%;
+    .modal-body{
+
+
+        img{
+            max-width: 100%;
+        }
+
+        p{
+            margin-bottom: 5px;
+        }
+    }
+    
+    .btn-launch{
+        margin-bottom: 10px;
+    }
+
+    .modal-main{
+        margin-top: 25px;
+    }
+
+    .modal-close{
+        font-size: 28px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-top: -40px;
+        margin-left: -14px;
+        color: #fff;
+        opacity: 0.8;
+        .transition(opacity 0.3s ease);
+
+        &:hover{
+            opacity: 1;
+            text-decoration: none;
+        }
     }
 }

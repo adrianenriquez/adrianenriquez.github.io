@@ -11,6 +11,7 @@ section{
     background: url('../images/bg/table.jpg') top center no-repeat @brand-primary;
     background-attachment: fixed;
     background-size: cover;
+    padding: 0;
 
     h1{
         color: #fff;
@@ -63,12 +64,21 @@ section{
         padding: 20px 0 30px;
         margin: 30px 0 0;
     }
+
+    @media (max-width: @screen-xs-max){
+        #stats-container{
+            h5{
+                font-size: 12px;
+            }
+        }
+    }
 }
 
 #skills{
     background-color: lighten(@gray-lighter, 2%); 
 
     .skill-item{
+        padding: 20px 40px;
         .ss-icon{
             border-radius: 50%;
             vertical-align: middle;
@@ -78,10 +88,15 @@ section{
             line-height: 96px;
             display: inline-block;
         }
-        padding: 20px 40px;
 
         h4{
             color: @brand-success;
+        }
+    }
+
+    @media (max-width: @screen-xs-max){
+        .skill-item{
+            padding: 10px 15px;
         }
     }
 }
@@ -123,7 +138,7 @@ section{
             text-align: center;
             color: #fff;
             height: 100%;
-            padding: 50px 20px;
+            padding: 40px 20px;
             .transition(opacity .3s);
 
             .btn{
@@ -131,6 +146,11 @@ section{
                 z-index: 20;
             }
 
+            hr{
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+            
             &:before{
                 content: '';
                 border-top: 2px solid #fff;
@@ -141,6 +161,10 @@ section{
                 left: 10px;
                 right: 10px;
                 bottom: 10px;
+            }
+
+            @media (max-width: @screen-xs-max){
+                padding: 40px 15px;
             }
         }
     }

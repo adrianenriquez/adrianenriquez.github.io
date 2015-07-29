@@ -15,7 +15,7 @@
         "Google Analytics",
         "Responsive Design"
     ],
-    "thumbnail": "mkcompass-travel.jpg",
+    "thumbnail": "mkcompass-travel@2x.jpg",
     "images":[
 
     ]
@@ -34,7 +34,7 @@
         "SEO",
         "Responsive Design"
     ],
-    "thumbnail": "ssg-bc.jpg",
+    "thumbnail": "ssg-bc@2x.jpg",
     "images":[
 
     ]
@@ -60,7 +60,7 @@
         "PSD to HTML",
         "Responsive Design"
     ],
-    "thumbnail": "creative-jooze-online.jpg",
+    "thumbnail": "creative-jooze-online@2x.jpg",
     "images":[
 
     ]
@@ -68,7 +68,7 @@
   "ojt_ue_manila": {
     "title": "OJT UE Manila Website",
     "about": "A website for announcements and news for On the Job Training Students of University of the East Manila.",
-    "responsibilities" : "We used Wordpress and a news and annoucement template.",
+    "responsibilities" : "Wordpress",
     "website": "http://ojtuemanila.com",
     "date": "",
     "category": "website",
@@ -84,7 +84,7 @@
         "Premium Template",
         "Social Login"
     ],
-    "thumbnail": "ojtuemanila.jpg",
+    "thumbnail": "ojtuemanila@2x.jpg",
     "images":[
 
     ]
@@ -102,17 +102,17 @@
         "Bootstrap",
         "Admin Dashboard"
     ],
-    "thumbnail": "mbr.jpg",
+    "thumbnail": "mbr@2x.jpg",
     "images":[
 
     ]
   },
   "git_lucky": {
     "title": "Git Lucky Team Portfolio Website",
-    "about": "A static portfolio website.",
-    "responsibilities" : "I used native PHP and mySQL to store image links and content.",
+    "about": "Crafting your vision into visually entertaining and smart experience web application",
+    "responsibilities" : "Developer",
     "website": "http://gitlucky.herokuapp.com",
-    "date": "",
+    "date": "April 2014",
     "category": "website",
     "tags": [
         "Bootstrap", 
@@ -120,17 +120,18 @@
         "CSS3 Animations",
         "Responsive Design"
     ],
-    "thumbnail": "git-lucky.jpg",
+    "thumbnail": "git-lucky@2x.jpg",
     "images":[
 
     ]
   },
   "powered_by_pace": {
     "title": "Powered by PACE",
-    "about": "",
-    "responsibilities" : "",
-    "website": "",
-    "date": "",
+    "about": "PACE lets you design and create beautiful photo albums online.",
+    "responsibilities" : "PSD to HTML",
+    "website": "http://poweredbypace.com",
+    "date": "July 2014",
+    "job": "Front-end Developer",
     "category": "website",
     "tags": [
         "CSS", 
@@ -138,18 +139,18 @@
         "Javascript", 
         "Bootstrap"
     ],
-    "thumbnail": "powered-by-pace.jpg",
+    "thumbnail": "powered-by-pace@2x.jpg",
     "images":[
 
     ]
   },
   "irisbook": {
-    "title": "IRISbook Website",
-    "about": "A static portfolio website.",
-    "goal": "Create a simple team portfolio website that shows the team skills and works.",
+    "title": "IRISbook",
+    "about": "IRISbook is a boutique album company that works exclusively with professional photographers. We create stunning, handcrafted, fine art albums with the utmost attention to detail and quality. Comprised of photographers and artisans, we have a first-hand understanding of your needs and your desire for excellence.",
     "responsibilities" : "I used native PHP and mySQL to store image links and content.",
     "website": "http://irisbook.com",
-    "date": "",
+    "date": "August 2014",
+    "job": "Front-end Developer",
     "category": "website",
     "tags": [
         "Bootstrap", 
@@ -157,7 +158,7 @@
         "PSD to HTML",
         "Responsive Design"
     ],
-    "thumbnail": "irisbook.jpg",
+    "thumbnail": "irisbook@2x.jpg",
     "images":[
 
     ]
@@ -166,41 +167,28 @@
     "title": "Jesuit Volunteer Philippines Foundation, Inc.",
     "about": "JVP is a community dedicated to the task of nation-building by promoting volunteerism and serving as development network in increasing literacy, creating more equitable access to health services, education and community life, especially for the marginalized and underprivileged. We are also a network of leaders in our own communities or fields of concerns.",
     "responsibilities" : "We created a responsive static website using Bootstrap and CSS Animations.",
-    "website": "http://gitlucky.herokuapp.com",
-    "date": "",
+    "website": "http://jvpfi.nexucloud.com",
+    "date": "April 2014",
     "category": "website",
-    "team_members": [
-        {
-            "name": "Jelly de Ocampo",
-            "display_picture" : "",
-            "website": "www.jellydeocampo.com"
-        }
-    ],
     "tags": [
         "Bootstrap", 
         "HTML/CSS", 
         "CSS Animations",
         "Responsive Design"
     ],
-    "thumbnail": "jvpfi.jpg",
+    "thumbnail": "jvpfi@2x.jpg",
     "images":[
 
     ]
   },
   "skizzah": {
     "title": "Skizzah",
-    "about": "",
-    "responsibilities" : "",
+    "about": "Nairobi's Underground Music",
+    "responsibilities" : "Wordpress Theme Development",
     "website": "http://skizzah.com",
-    "date": "",
+    "job": "Theme Development",
+    "date": "December 2014",
     "category": "website",
-    "team_members": [
-        {
-            "name": "Jelly de Ocampo",
-            "display_picture" : "",
-            "website": "www.jellydeocampo.com"
-        }
-    ],
     "tags": [
         "Wordpress", 
         "UI Design", 
@@ -208,17 +196,18 @@
         "HTML/CSS", 
         "Responsive Design"
     ],
-    "thumbnail": "skizzah.jpg",
+    "thumbnail": "skizzah@2x.jpg",
     "images":[
 
     ]
   },
   "desimemes": {
-    "title": "Desimemes",
-    "about": "",
+    "title": "Desimemes Prototype",
+    "about": "An online platform and social media website for indians.",
     "responsibilities" : "",
     "website": "",
-    "date": "",
+    "date": "June 2014",
+    "job": "Full Stack Web Developer",
     "category": "website",
     "tags": [
         "Node.js", 
@@ -229,17 +218,18 @@
         "Amazon S3",
         "MongoDB"
     ],
-    "thumbnail": "desimemes.jpg",
+    "thumbnail": "desimemes@2x.jpg",
     "images":[
 
     ]
   },
   "pizza_papa_johns": {
     "title": "Pizza Papa John's - Azerbaijan",
-    "about": "",
+    "about": "Better Ingredients. Better Pizza. Papa John's.",
     "responsibilities" : "",
-    "website": "",
-    "date": "",
+    "job": "CSS Fix",
+    "website": "http://papajohns.az",
+    "date": "December 2014",
     "category": "website",
     "tags": [
         "CSS", 
@@ -247,17 +237,18 @@
         "Javascript", 
         "Bootstrap"
     ],
-    "thumbnail": "papa-johns.jpg",
+    "thumbnail": "papa-johns@2x.jpg",
     "images":[
 
     ]
   },
   "fm_reyman": {
-    "title": "FM Reyman Trucking Services Inc. Website",
-    "about": "",
+    "title": "FM Reyman Trucking Services Inc.",
+    "about": "FM Reyman Trucking Services Inc. provides trucking/transport services, checking, brokerage and other port services, specializing in handling all kinds of semi-finished and finished steel products such as steel billets, wire rods, steel coils, channels, and other steel products.",
     "responsibilities" : "",
     "website": "reyman.ph",
-    "date": "",
+    "date": "December 2015",
+    "job": "Full Stack Developer",
     "category": "website",
     "tags": [
         "CSS", 
@@ -265,17 +256,18 @@
         "Javascript", 
         "Bootstrap"
     ],
-    "thumbnail": "fm-reyman.jpg",
+    "thumbnail": "fm-reyman@2x.jpg",
     "images":[
 
     ]
   },
   "call_loop": {
     "title": "Call Loop",
-    "about": "",
-    "responsibilities" : "",
-    "website": "",
-    "date": "",
+    "about": "SMS Marketing software Call Loop makes it easy to send voice broadcasts and deliver text message marketing campaigns.",
+    "responsibilities" : "PSD to HTML",
+    "website": "http://callloop.com",
+    "date": "February 2015",
+    "job": "Front-end Developer",
     "category": "website",
     "tags": [
         "CSS", 
@@ -283,17 +275,18 @@
         "Javascript", 
         "Bootstrap"
     ],
-    "thumbnail": "callloop-less.jpg",
+    "thumbnail": "callloop@2x.jpg",
     "images":[
 
     ]
   },
   "phone_checkr": {
     "title": "Phone Checkr",
-    "about": "",
-    "responsibilities" : "",
-    "website": "",
-    "date": "",
+    "about": "Lookup phone numbers to determine whether they're a landline, mobile, or VOIP phone number.",
+    "responsibilities" : "PSD to HTML",
+    "website": "http://phonecheckr.com",
+    "date": "April 2015",
+    "job": "Front-end Developer",
     "category": "website",
     "tags": [
         "CSS", 
@@ -301,17 +294,18 @@
         "Javascript", 
         "Bootstrap"
     ],
-    "thumbnail": "phone-checkr.jpg",
+    "thumbnail": "phone-checkr@2x.jpg",
     "images":[
 
     ]
   },
   "kicka_conference": {
     "title": "Kicka Conference",
-    "about": "",
+    "about": "Easy, visual, and free conference calls and teleseminars. Sign up today and reserve your free conference line.",
     "responsibilities" : "",
     "website": "kickaconference.com",
-    "date": "",
+    "date": "June 2015",
+    "job": "Front-end Developer",
     "category": "website",
     "tags": [
         "CSS", 
@@ -319,17 +313,18 @@
         "Javascript", 
         "Bootstrap"
     ],
-    "thumbnail": "kickaconference.jpg",
+    "thumbnail": "kickaconference@2x.jpg",
     "images":[
 
     ]
   },
   "salt": {
     "title": "SALT",
-    "about": "",
-    "responsibilities" : "",
-    "website": "kickaconference.com",
-    "date": "",
+    "about": "SALT is a company that provides a range of specialist services to SMEs, services to help overcome business hiccups and accelerate strong business growth.",
+    "responsibilities" : "PSD to HTML",
+    "website": "http://projects.inthelm.com/salt/app/",
+    "date": "June 2015",
+    "job": "Developer",
     "category": "website",
     "tags": [
         "CSS", 
@@ -337,7 +332,7 @@
         "Javascript", 
         "Bootstrap"
     ],
-    "thumbnail": "salt.jpg",
+    "thumbnail": "salt@2x.jpg",
     "images":[
 
     ]

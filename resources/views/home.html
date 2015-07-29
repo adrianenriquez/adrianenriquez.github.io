@@ -83,7 +83,7 @@
 					</div>
 					<div class="work-details">
 						<h4>{{ project.title }}</h4>
-						<div class="col-xs-6 col-xs-offset-3"><hr></div>
+						<div class="col-xs-6 col-xs-offset-3 hidden-xs"><hr></div>
 						<div class="clearfix"></div>
 						<!-- <a href="#/work/{{ project.permalink }}" class="btn btn-primary">View</a> -->
 						<a ui-sref="home.work({permalink: '{{project.permalink}}'})" class="btn btn-clear">View</a>
@@ -100,7 +100,7 @@
 						</div>
 						<div class="work-details">
 							<h4>{{ project.title }}</h4>
-							<div class="col-xs-6 col-xs-offset-3"><hr></div>
+							<div class="col-xs-6 col-xs-offset-3 hidden-xs"><hr></div>
 							<div class="clearfix"></div>
 							<!-- <a href="#/work/{{ project.permalink }}" class="btn btn-primary">View</a> -->
 							<a ui-sref="home.work({permalink: '{{project.permalink}}'})" class="btn btn-clear">View</a>
@@ -124,15 +124,13 @@
 		</header>
 
 		<div class="row">
-			<div class="col-sm-offset-3 col-sm-6"> 
+			<div class="col-sm-offset-2 col-sm-8"> 
 				<div class="media" ng-repeat="experience in employment">
 					<div class="media-left">
-						<a href="#">
-							<img class="media-object" ng-src="public/images/logo/{{experience.icon_name}}" alt="Call Loop Icon">
-						</a>
+						<img class="media-object" ng-src="public/images/logo/{{experience.icon_name}}" alt="Call Loop Icon" class="hidden-xs">
 					</div>
 					<div class="media-body">
-						<h4 class="media-heading">{{experience.company_name}}</h4>
+						<h3 class="media-heading">{{experience.company_name}}</h3>
 						<h5>{{experience.position}}</h5>
 						<p>{{experience.start_date}} - {{experience.end_date}} </p>
 						<p>{{experience.description}}</p>
