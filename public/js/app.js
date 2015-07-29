@@ -13,6 +13,7 @@ angular.module('adrianenriquezApp', [
     'ngResource',
     'ngSanitize',
     'ngTouch',
+    'ngRetina',
     'ui.router',
     'ui.bootstrap',
     'angular.filter',

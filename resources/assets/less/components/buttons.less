@@ -2,13 +2,24 @@
 .btn{
     border-width: 2px;
     border-radius: 0;
+    .transition(all 0.3s ease-out);
 
-    &.btn-primary{
-        .transition(all 0.3s ease);
+    &.btn-primary{    
         
         &:hover{
             background-color: @brand-primary;
             border-color: @brand-primary;
+        }
+    }
+
+    &.btn-clear{
+        background-color: none;
+        border: 2px solid #fff;
+        color: #fff;
+
+        &:hover{    
+            background-color: @brand-info;
+            border-color: @brand-info;
         }
     }
 }

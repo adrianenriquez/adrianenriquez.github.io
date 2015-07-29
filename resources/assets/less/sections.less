@@ -3,7 +3,7 @@ section{
 
     header{
         margin-bottom: 40px;
-   }
+    }
 }
 
 #home{
@@ -51,6 +51,7 @@ section{
 
 #about{
     background-color: #fff;
+    padding-top: 130px;
     padding-bottom:  0;
 
     img{
@@ -71,7 +72,7 @@ section{
         .ss-icon{
             border-radius: 50%;
             vertical-align: middle;
-            font-size: 48px;
+            font-size: 52px;
             width: 96px;
             height: 96px;
             line-height: 96px;
@@ -128,11 +129,6 @@ section{
             .btn{
                 position: relative;
                 z-index: 20;
-
-                &:hover{
-                    background-color: @brand-success;
-                    border-color: @brand-success;
-                }
             }
 
             &:before{
@@ -148,6 +144,23 @@ section{
             }
         }
     }
+
+    #all-works-container{
+        opacity: 1;
+        visibility: visible;
+        position: static;
+        height: 100%;
+        .transition(all 0.3s ease);
+
+        &.ng-hide{
+            display: block !important;
+            position: absolute;
+            visibility: hidden;
+            opacity: 0;
+            height: 0;
+        }
+    }
+    
 }
 
 #experience{
