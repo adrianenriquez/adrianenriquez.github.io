@@ -46,11 +46,7 @@ angular.module('ae.home', ['duScroll','ngAnimate'])
 .value('duScrollEasing', EasingFunctions.easeInOutQuint)
 
 .controller('HomeCtrl', function ($rootScope) {
-	
-    var stickyNav = function(){
-        $("#main-nav").sticky({topSpacing:0});
-    }
-  
+	    
     var setupPreviousState = function(){
         $rootScope.previousState = 'home';
         $rootScope.$on('$stateChangeSuccess', function(ev, to, toParams, from, fromParams){
@@ -60,7 +56,6 @@ angular.module('ae.home', ['duScroll','ngAnimate'])
     
 
     var init = function(){
-        stickyNav();
         setupPreviousState();
     }
 

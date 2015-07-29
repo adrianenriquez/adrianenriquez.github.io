@@ -17,6 +17,7 @@ angular.module('adrianenriquezApp', [
     'ui.bootstrap',
     'angular.filter',
     'duScroll',
+    'ae.directives',
     'ae.routes',
     'ae.home',
     'ae.main',
