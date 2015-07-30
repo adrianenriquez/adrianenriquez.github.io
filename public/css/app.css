@@ -12862,6 +12862,8 @@ button.close {
 }
 .page-footer #footer-logo {
   opacity: 0.8;
+  display: block;
+  margin-bottom: 15px;
   -webkit-transition: opacity 0.3s ease-in-out;
   -o-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
@@ -12870,12 +12872,6 @@ button.close {
   opacity: 1;
 }
 @media (max-width: 767px) {
-  .page-footer {
-    text-align: center;
-  }
-  .page-footer .text-right {
-    text-align: center;
-  }
   .page-footer #footer-logo img {
     margin: 20px 0;
   }
@@ -12972,6 +12968,10 @@ label {
 }
 #main-nav li a {
   text-transform: uppercase;
+  padding: 24px 20px;
+}
+#main-nav li a.active {
+  color: #fff;
 }
 #main-nav .navbar-brand,
 #main-nav li a,
@@ -12994,6 +12994,10 @@ label {
 .nav-inline ul li a {
   color: #d7dadb;
   margin: 8px;
+  border-bottom: 1px solid #2c3e50;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .nav-inline ul li a:hover,
 .nav-inline ul li a:focus {
@@ -13082,6 +13086,10 @@ label {
 }
 .modal .modal-body p {
   margin-bottom: 5px;
+}
+.modal .modal-body .label {
+  display: inline-block;
+  margin: 0 2px;
 }
 .modal .btn-launch {
   margin-bottom: 10px;

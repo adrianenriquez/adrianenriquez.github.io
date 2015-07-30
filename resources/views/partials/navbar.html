@@ -11,17 +11,18 @@
             </button>
             <a class="navbar-brand" du-smooth-scroll du-scrollspy="home" offset="70" href="#home">
                 <img id="navbar-logo" ng-src="/public/images/ae-logo-white.png" alt="ae-logo" width="38" height="38">
-                <span class="hidden">Adrian Enriquez</span>
+                <span class="hidden-xs">Adrian Enriquez</span>
             </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="main-menu">
             <ul class="nav navbar-nav navbar-right">
-                <li><a du-smooth-scroll du-scrollspy="about" offset="0" href="#about">About</a></li>
-                <li><a du-smooth-scroll du-scrollspy="works" offset="70" href="#works">Works</a></li>
-                <li><a du-smooth-scroll du-scrollspy="experience" offset="70" href="#experience">Experience</a></li>
-                <li><a du-smooth-scroll du-scrollspy="contact" offset="70" href="#contact">Contact</a></li>
+                <li du-scrollspy="about"><a du-smooth-scroll du-scrollspy="about" offset="0" href="#about">About</a></li>
+                <li du-scrollspy="skills"><a du-smooth-scroll du-scrollspy="skills" offset="70" href="#skills">Skills</a></li>
+                <li du-scrollspy="works"><a du-smooth-scroll du-scrollspy="works" offset="70" href="#works">Works</a></li>
+                <li du-scrollspy="experience"><a du-smooth-scroll du-scrollspy="experience" offset="70" href="#experience">Experience</a></li>
+                <li du-scrollspy="contact"><a du-smooth-scroll du-scrollspy="contact" offset="70" href="#contact">Contact</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->

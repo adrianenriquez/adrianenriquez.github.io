@@ -41,10 +41,10 @@
   easeInOutQuint: function (t) { return t<.5 ? 16*t*t*t*t*t : 1+16*(--t)*t*t*t*t }
 }
 
-angular.module('ae.home', ['duScroll','ngAnimate'])
+angular.module('ae.home', ['duScroll'])
 
-.value('duScrollEasing', EasingFunctions.easeInOutQuint)
-
+.value('duScrollEasing', EasingFunctions.easeInOutCubic)
+.value('duScrollDuration', 1200)
 .controller('HomeCtrl', function ($rootScope) {
 	    
     var setupPreviousState = function(){

@@ -1,23 +1,16 @@
 <footer class="page-footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-5">
-                <p>&copy; Copyright 2015 Adrian Enriquez</p>
-            </div>
-            <div class="col-sm-2 text-center">
-                <a id="footer-logo" du-smooth-scroll du-scrollspy="home" offset="70" href="#home"> 
-                    <img ng-src="/public/images/ae-logo-white.png" alt="ae-logo" width="38" height="38">
-                </a>
-            </div>
-            <div class="col-sm-5 text-right">
-                <nav class="nav-inline">
-                    <ul>
-                        <li ng-repeat="item in social">
-                            <a href="{{item.url}}" alt="{{item.name}}" target="_blank">{{item.name}}</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
+    <div class="container text-center">
+        <a id="footer-logo" alt="Back to top" du-smooth-scroll du-scrollspy="home" offset="70" href="#home"> 
+            <img ng-src="/public/images/ae-logo-white.png" alt="ae-logo" width="38" height="38">
+        </a>
+        <p>&copy; Copyright 2015 Adrian Enriquez</p>
+
+        <nav class="nav-inline">
+            <ul>
+                <li ng-repeat="item in social">
+                    <a href="{{item.url}}" alt="{{item.name}}" target="_blank">{{item.name}}</a>
+                </li>
+            </ul>
+        </nav>
     </div>
 </footer>

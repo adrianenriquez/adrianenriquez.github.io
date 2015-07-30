@@ -40,6 +40,11 @@
     
     li a{
         text-transform: uppercase;
+        padding: 24px 20px;
+
+        &.active{
+            color: #fff;
+        }
     }
 
     .navbar-brand,
@@ -64,7 +69,9 @@
         a{
             color: @gray;
             margin: 8px;
-
+            border-bottom: 1px solid @brand-primary;
+            .transition(all 0.2s ease-in-out);
+            
             &:hover,
             &:focus{
                 color: #fff;
@@ -85,17 +92,17 @@
     @media (max-width: @screen-xs-max){
         ul li{
 
-        a{
-            margin: 8px;
-        }
+            a{
+                margin: 8px;
+            }
 
-        &:first-child a{
-            margin-left: 8px;
-        }
+            &:first-child a{
+                margin-left: 8px;
+            }
 
-        &:last-child a{
-            margin-right: 8px;
+            &:last-child a{
+                margin-right: 8px;
+            }
         }
-    }
     }
 }

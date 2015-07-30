@@ -4,7 +4,8 @@
     "about": "We aim to promote the beauty of the Philippines and let more people explore the hidden treasure of our country at reasonable and affordable way.",
     "responsibilities" : "I develop this website using Wordpress, so that the content can be easily updated using WYSIWYG editor.",
     "website": "http://mkcompasstravel.com",
-    "date": "",
+    "date": "December 2013",
+    "job": "Developer",
     "category": "website",
     "tags": [
         "Wordpress", 
@@ -25,10 +26,11 @@
     "about": "A newly established dealer of heavy equipment, wholesaler of different kinds of aggregates and renting of other machineries.",
     "responsibilities" : "I used Twitter Bootstrap to create this static website.",
     "website": "http://ssg-bc.com",
-    "date": "",
+    "date": "November 2013",
+    "job": "Developer",
     "category": "website",
     "tags": [
-        "Bootstrap", 
+        "Bootstrap 2", 
         "HTML/CSS",
         "Web Design",
         "SEO",
@@ -44,7 +46,8 @@
     "about": "An instructional portal designed for exceptionally creative students, driven to strive for academic excellence, specifically in the College of Fine Arts at the Technological University of the Philippines Manila.",
     "responsibilities" : "We used Joomla to change the content easily and we used Moodle for the professors and instructors to upload the lessons and lectures for their students.",
     "website": "http://creativejoozeonline.org",
-    "date": "",
+    "date": "November 2013",
+    "job": "Developer",
     "category": "website",
     "team_members": [
         {
@@ -56,6 +59,7 @@
     "tags": [
         "Joomla", 
         "Moodle",
+        "Joomdle",
         "Web Design",
         "PSD to HTML",
         "Responsive Design"
@@ -70,15 +74,9 @@
     "about": "A website for announcements and news for On the Job Training Students of University of the East Manila.",
     "responsibilities" : "Wordpress",
     "website": "http://ojtuemanila.com",
-    "date": "",
+    "date": "November 2013",
+    "job": "Developer",
     "category": "website",
-    "team_members": [
-        {
-            "name": "Jelly de Ocampo",
-            "display_picture" : "",
-            "website": "www.jellydeocampo.com"
-        }
-    ],
     "tags": [
         "Wordpress", 
         "Premium Template",
@@ -94,9 +92,11 @@
     "about": "An image gallery portfolio website.",
     "responsibilities" : "I used native PHP and mySQL to store image links and content.",
     "website": "http://makeupbyrussell.com",
-    "date": "",
+    "date": "May 2014",
+    "job": "Developer",
     "category": "website",
     "tags": [
+        "Laravel 4",
         "PHP", 
         "mySQL", 
         "Bootstrap",
@@ -113,9 +113,10 @@
     "responsibilities" : "Developer",
     "website": "http://gitlucky.herokuapp.com",
     "date": "April 2014",
+    "job": "Developer",
     "category": "website",
     "tags": [
-        "Bootstrap", 
+        "Bootstrap 3", 
         "HTML/CSS", 
         "CSS3 Animations",
         "Responsive Design"
@@ -134,10 +135,12 @@
     "job": "Front-end Developer",
     "category": "website",
     "tags": [
+        "Angular.js",
+        "HTML5 Canvas",
+        "Foundation 4 Framework",
         "CSS", 
         "Responsive Design", 
-        "Javascript", 
-        "Bootstrap"
+        "Javascript"
     ],
     "thumbnail": "powered-by-pace@2x.jpg",
     "images":[
@@ -147,13 +150,15 @@
   "irisbook": {
     "title": "IRISbook",
     "about": "IRISbook is a boutique album company that works exclusively with professional photographers. We create stunning, handcrafted, fine art albums with the utmost attention to detail and quality. Comprised of photographers and artisans, we have a first-hand understanding of your needs and your desire for excellence.",
-    "responsibilities" : "I used native PHP and mySQL to store image links and content.",
+    "responsibilities" : "PSD to HTML",
     "website": "http://irisbook.com",
     "date": "August 2014",
     "job": "Front-end Developer",
     "category": "website",
     "tags": [
-        "Bootstrap", 
+        "Angular.js",
+        "Javascript",
+        "Bootstrap 3", 
         "HTML/CSS", 
         "PSD to HTML",
         "Responsive Design"
@@ -169,8 +174,11 @@
     "responsibilities" : "We created a responsive static website using Bootstrap and CSS Animations.",
     "website": "http://jvpfi.nexucloud.com",
     "date": "April 2014",
+    "job": "Developer",
     "category": "website",
     "tags": [
+        "Wordpress",
+        "Custom Theme Development",
         "Bootstrap", 
         "HTML/CSS", 
         "CSS Animations",
@@ -210,12 +218,14 @@
     "job": "Full Stack Web Developer",
     "category": "website",
     "tags": [
-        "Node.js", 
-        "Responsive Design", 
         "Javascript", 
-        "Bootstrap",
+        "Node.js", 
         "Express.js",
+        "Bootstrap",
         "Amazon S3",
+        "Responsive Design", 
+        "HTML5 Local Storage",
+        "HTML5 Canvas",
         "MongoDB"
     ],
     "thumbnail": "desimemes@2x.jpg",
@@ -232,9 +242,10 @@
     "date": "December 2014",
     "category": "website",
     "tags": [
-        "CSS", 
+        "CSS Fix", 
         "Responsive Design", 
         "Javascript", 
+        "jQuery",
         "Bootstrap"
     ],
     "thumbnail": "papa-johns@2x.jpg",
@@ -246,11 +257,14 @@
     "title": "FM Reyman Trucking Services Inc.",
     "about": "FM Reyman Trucking Services Inc. provides trucking/transport services, checking, brokerage and other port services, specializing in handling all kinds of semi-finished and finished steel products such as steel billets, wire rods, steel coils, channels, and other steel products.",
     "responsibilities" : "",
-    "website": "reyman.ph",
+    "website": "http://reyman.ph",
     "date": "December 2015",
     "job": "Full Stack Developer",
     "category": "website",
     "tags": [
+        "Laravel 4",
+        "Angular.js",
+        "Ionic Framework",
         "CSS", 
         "Responsive Design", 
         "Javascript", 
@@ -270,10 +284,16 @@
     "job": "Front-end Developer",
     "category": "website",
     "tags": [
-        "CSS", 
+        "Laravel 5",
+        "Angular.js",
+        "CSS",
+        "jQuery",
+        "PSD to HTML",
         "Responsive Design", 
         "Javascript", 
-        "Bootstrap"
+        "Bootstrap 3",
+        "Gulp.js",
+        "Vagrant"
     ],
     "thumbnail": "callloop@2x.jpg",
     "images":[
@@ -289,10 +309,15 @@
     "job": "Front-end Developer",
     "category": "website",
     "tags": [
-        "CSS", 
+        "Laravel 5",
+        "Angular.js",
+        "LESS/CSS",
+        "jQuery",
+        "PSD to HTML",
         "Responsive Design", 
         "Javascript", 
-        "Bootstrap"
+        "Bootstrap 3",
+        "Gulp.js"
     ],
     "thumbnail": "phone-checkr@2x.jpg",
     "images":[
@@ -308,10 +333,15 @@
     "job": "Front-end Developer",
     "category": "website",
     "tags": [
-        "CSS", 
+        "Laravel 4 - 5",
+        "Angular.js",
+        "LESS/CSS",
+        "jQuery",
+        "PSD to HTML",
         "Responsive Design", 
         "Javascript", 
-        "Bootstrap"
+        "Gulp.js",
+        "Bootstrap 3"
     ],
     "thumbnail": "kickaconference@2x.jpg",
     "images":[
@@ -327,6 +357,8 @@
     "job": "Developer",
     "category": "website",
     "tags": [
+        "CMS",
+        "PHP",
         "CSS", 
         "Responsive Design", 
         "Javascript", 
