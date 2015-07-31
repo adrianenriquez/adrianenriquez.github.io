@@ -45,7 +45,7 @@ angular.module('ae.home', ['duScroll'])
 
 .value('duScrollEasing', EasingFunctions.easeInOutCubic)
 .value('duScrollDuration', 1200)
-.controller('HomeCtrl', function ($rootScope) {
+.controller('HomeCtrl', ['$rootScope', function ($rootScope) {
 	    
     var setupPreviousState = function(){
         $rootScope.previousState = 'home';
@@ -61,4 +61,4 @@ angular.module('ae.home', ['duScroll'])
 
     init();
 
-});
+}]);

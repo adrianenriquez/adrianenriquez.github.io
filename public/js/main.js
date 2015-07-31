@@ -1,4 +1,4 @@
-angular.module('ae.main', ['ngAnimate'])
+angular.module('ae.main', [])
 
 .controller('MainCtrl', function($resource, $scope){
 

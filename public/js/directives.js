@@ -1,6 +1,6 @@
 angular.module('ae.directives', [])
 
-.directive('scrollPosition', function($window) {
+.directive('scrollPosition', ['$window', function($window) {
 	return {
 		scope: {
 			scroll: '=scrollPosition'
@@ -22,4 +22,4 @@ angular.module('ae.directives', [])
 			handler();
 		}
 	};
-});
+}]);
