@@ -14,9 +14,9 @@
         <div class="col-sm-7">
             <h4 class="text-success">About</h4>
             <p>{{ works[active].about }}</p>
-            <h4 class="text-success">Responsibilities</h4>
-            <p>{{ works[active].responsibilities }}</p>
-            <div><span class="label label-info" ng-repeat="tag in works[active].tags"> {{tag}} </span></div>
+            <h4 class="text-success hidden">Responsibilities</h4>
+            <p class="hidden">{{ works[active].responsibilities }}</p>
+            <div ><span class="label label-info" ng-repeat="tag in works[active].tags"> {{tag}} </span></div>
         </div>
     </div>
 

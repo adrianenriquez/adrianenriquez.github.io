@@ -27,6 +27,7 @@ section{
         color: @gray;
         padding: 8px 12px;
         display: inline-block;
+        margin-top: 10px;
         font-size: @font-size-h3;
     }
 
@@ -203,6 +204,10 @@ section{
             font-size: @font-size-h6;
         }
     }
+
+    .text-muted{
+        color: darken(@gray, 20%);
+    }
 }
 
 #testimonials{
@@ -217,5 +222,13 @@ section{
 
     @media (max-width: @screen-xs-max){
         background-attachment: initial;
+    }
+
+    .form-control{
+        .transition(border-color 0.2s ease);
+
+        &:focus{
+            border-color: @brand-info;
+        }
     }
 }

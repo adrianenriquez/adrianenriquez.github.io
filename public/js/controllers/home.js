@@ -44,7 +44,9 @@
 angular.module('ae.home', ['duScroll'])
 
 .value('duScrollEasing', EasingFunctions.easeInOutCubic)
+
 .value('duScrollDuration', 1200)
+
 .controller('HomeCtrl', ['$rootScope', function ($rootScope) {
 	    
     var setupPreviousState = function(){
@@ -53,12 +55,31 @@ angular.module('ae.home', ['duScroll'])
             $rootScope.previousState = from.name;
         })  
     }
-    
+
+    var waypoint = new Waypoint({
+        element: document.getElementById('stats-container'),
+        handler: function(direction) {
+          new CountUp("projects-done", 1, 20, 0, 2).start();
+          new CountUp("clients-worked", 1, 10, 0, 2).start();
+          new CountUp("experience-years", 1, 2, 0, 2).start();
+          //numAnim.start();
+          this.destroy()
+        },
+        offset: '75%'
+    })
+    var countUpStats = function(){
+
+      setTimeout(function(){
+        // var numAnim = new CountUp("projectsDone", 0, 20);
+        //     numAnim.start();
+      }, 200)
+    } 
 
     var init = function(){
-        setupPreviousState();
+      setupPreviousState();
+      new WOW().init();
     }
 
     init();
-
+    
 }]);

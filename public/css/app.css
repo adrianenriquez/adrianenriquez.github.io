@@ -2547,7 +2547,7 @@ output {
   color: #2c3e50;
   background-color: #ffffff;
   background-image: none;
-  border: 1px solid transparent;
+  border: 1px solid #ffffff;
   border-radius: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -3935,7 +3935,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #2c3e50;
   text-align: center;
   background-color: #eeeeee;
-  border: 1px solid transparent;
+  border: 1px solid #ffffff;
   border-radius: 0;
 }
 .input-group-addon.input-sm {
@@ -13034,7 +13034,7 @@ label {
   border-color: #2c3e50;
 }
 .btn.btn-clear {
-  background-color: none;
+  background-color: transparent;
   border: 2px solid #fff;
   color: #fff;
 }
@@ -13140,6 +13140,7 @@ section header {
   color: #d7dadb;
   padding: 8px 12px;
   display: inline-block;
+  margin-top: 10px;
   font-size: 28px;
 }
 #home #home-summary {
@@ -13303,6 +13304,9 @@ section header {
   padding: 6px 8px 2px;
   font-size: 14px;
 }
+#experience .text-muted {
+  color: #a1a8ab;
+}
 #testimonials {
   background-color: #fff;
 }
@@ -13317,10 +13321,24 @@ section header {
     background-attachment: initial;
   }
 }
+#contact .form-control {
+  -webkit-transition: border-color 0.2s ease;
+  -o-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+}
+#contact .form-control:focus {
+  border-color: #6dbcdb;
+}
 body,
 html,
 #ng-view {
   height: 100%;
+}
+body.modal-open {
+  padding-right: 17px;
+}
+body.modal-open #main-nav {
+  padding-right: 30px;
 }
 @-moz-keyframes scale-bg {
   0% {

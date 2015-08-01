@@ -1,9 +1,9 @@
 angular.module('ae.directives', [])
 
-.directive('scrollPosition', ['$window', function($window) {
+.directive('stickyNav', ['$window', function($window) {
 	return {
 		scope: {
-			scroll: '=scrollPosition'
+			scroll: '=stickyNav'
 		},
 		link: function(scope, element, attrs) {
 			var windowEl = angular.element($window);
