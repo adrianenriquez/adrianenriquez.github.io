@@ -28,7 +28,8 @@ gulp.task('copy', function(){
         'bower_components/angular*/**/*min.*{js,map}',
         'resources/assets/vendor/owl-carousel/owl.carousel.min.js',
         'bower_components/countUp.js/dist/countUp.min.js',
-        'bower_components/waypoints/lib/jquery.waypoints.min.js'
+        'bower_components/waypoints/lib/jquery.waypoints.min.js',
+        'bower_components/fastclick/lib/fastclick.js'
     ])
     .pipe(gulp.dest('public/js/vendor'));
 });

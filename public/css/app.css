@@ -12860,6 +12860,19 @@ button.close {
   font-size: 14px;
   margin-bottom: 0;
 }
+.page-footer .bs-link {
+  color: #d7dadb;
+  border-bottom: 1px solid #2c3e50;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.page-footer .bs-link:hover,
+.page-footer .bs-link:focus {
+  color: #fff;
+  border-color: #fff;
+  text-decoration: none;
+}
 .page-footer #footer-logo {
   opacity: 0.8;
   display: block;
@@ -12980,6 +12993,12 @@ label {
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
+@media (max-width: 767px) {
+  #main-nav li a {
+    padding: 15px 20px;
+    text-align: right;
+  }
+}
 .nav-inline {
   display: inline-block;
 }
@@ -13052,7 +13071,7 @@ label {
   display: inline-block;
 }
 .btn-social-container li a {
-  margin: 10px;
+  margin: 12px;
   padding: 10px;
   font-size: 24px;
   width: 52px;
@@ -13114,6 +13133,16 @@ label {
   opacity: 1;
   text-decoration: none;
 }
+@media (min-width: 768px) {
+  .modal .modal-close {
+    top: 0;
+    right: 0;
+    left: initial;
+    margin-top: 5px;
+    margin-left: 0;
+    margin-right: -50px;
+  }
+}
 section {
   padding: 60px 0;
 }
@@ -13160,6 +13189,9 @@ section header {
     margin: 150px 0;
     width: 100%;
   }
+  #home h2 {
+    font-size: 20px;
+  }
 }
 #about {
   background-color: #fff;
@@ -13197,7 +13229,7 @@ section header {
 #skills .skill-item h4 {
   color: #fc4349;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   #skills .skill-item {
     padding: 10px 15px;
   }
@@ -13269,6 +13301,9 @@ section header {
   bottom: 10px;
 }
 @media (max-width: 767px) {
+  #works .work-item {
+    margin-bottom: 15px;
+  }
   #works .work-item .work-details {
     padding: 40px 15px;
   }
@@ -13334,11 +13369,13 @@ html,
 #ng-view {
   height: 100%;
 }
-body.modal-open {
-  padding-right: 17px;
-}
-body.modal-open #main-nav {
-  padding-right: 30px;
+@media screen and (min-device-width: 1200px) {
+  body.modal-open {
+    padding-right: 17px;
+  }
+  body.modal-open #main-nav {
+    padding-right: 17px;
+  }
 }
 @-moz-keyframes scale-bg {
   0% {

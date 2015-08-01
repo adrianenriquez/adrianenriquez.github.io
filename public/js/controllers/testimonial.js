@@ -4,6 +4,6 @@ angular.module('ae.testimonial', [])
     $(".owl-carousel").owlCarousel({
         loop:true,
         dots: true,
-        items: 1
+        singleItem: true
     });
 }]);

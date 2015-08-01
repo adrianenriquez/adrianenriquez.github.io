@@ -17,7 +17,8 @@
     "angular-retina": "~0.3.1",
     "wow": "~1.1.2",
     "countUp.js": "~1.5.3",
-    "waypoints": "~3.1.1"
+    "waypoints": "~3.1.1",
+    "fastclick": "~1.0.6"
   },
   "appPath": "app"
 }

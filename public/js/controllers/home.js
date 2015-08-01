@@ -66,18 +66,12 @@ angular.module('ae.home', ['duScroll'])
           this.destroy()
         },
         offset: '75%'
-    })
-    var countUpStats = function(){
-
-      setTimeout(function(){
-        // var numAnim = new CountUp("projectsDone", 0, 20);
-        //     numAnim.start();
-      }, 200)
-    } 
+    });
 
     var init = function(){
       setupPreviousState();
       new WOW().init();
+      FastClick.attach(document.body);
     }
 
     init();

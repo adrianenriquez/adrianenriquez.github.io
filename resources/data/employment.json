@@ -6,11 +6,14 @@
         "address": "United States",
         "start_date": "Feb 2015",
         "end_date": "May 2015",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "description": "Converting PSD and mockups to HTML. Creating Responsive and Retina ready websites. Creating Views and Controllers for Laravel Application.",
         "tags": [
-            "front-end development",
-            "psd to html",
-            "javascript"
+            "Laravel",
+            "Bootstrap 3",
+            "Javascript",
+            "jQuery",
+            "Front-end Development",
+            "PSD to HTML"
         ]
     },
     {
@@ -20,10 +23,14 @@
         "address": "Canada",
         "start_date": "Jul 2014",
         "end_date": "Sep 2014",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "description": "Developed many directives using Angular.js. Converting PSDs and mockups to working web pages. Data binding REST APIs to front-end application. Creating Responsive, pixel perfect design and Retina ready websites.",
         "tags": [
-            "angularjs",
-            "psd to html"
+            "Angular.js",
+            "Foundation 4 Framework",
+            "HTML5 Canvas",
+            "CSS/SCSS",
+            "Grunt",
+            "PSD to HTML"
         ]
     },
     {
@@ -33,13 +40,15 @@
         "address": "Ortigas Philippines",
         "start_date": "Nov 2013",
         "end_date": "May 2014",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "description": "Developed Windows services and applications. Developed Web services and REST APIs. Redesigning and Updating existing websites and applications. Develop mobile applications using Angular.js and Phonegap. Creating MSSQL stored procedures.",
         "tags": [
-            "angularjs",
-            "phonegap",
+            "Angular.js",
+            "jQuery",
+            "Javascript",
+            "Phonegap",
             "vb.net",
             "c#.net",
-            "mssql"
+            "MSSQL"
         ]
     }
 ]

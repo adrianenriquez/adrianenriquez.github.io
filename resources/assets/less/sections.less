@@ -48,6 +48,10 @@ section{
             margin: 150px 0;
             width: 100%;
         }
+
+        h2{
+            font-size: 20px;
+        }
     }
 }
 
@@ -94,8 +98,7 @@ section{
             color: @brand-success;
         }
     }
-
-    @media (max-width: @screen-xs-max){
+    @media (max-width: @screen-sm-max){
         .skill-item{
             padding: 10px 15px;
         }
@@ -163,8 +166,12 @@ section{
                 right: 10px;
                 bottom: 10px;
             }
+        }
 
-            @media (max-width: @screen-xs-max){
+        @media (max-width: @screen-xs-max){
+            margin-bottom: 15px;
+            
+            .work-details{
                 padding: 40px 15px;
             }
         }
