@@ -23,5 +23,5 @@ angular.module('adrianenriquezApp', [
     'ae.home',
     'ae.main',
     'ae.work',
-    'ae.testimonial'
+    'ae.section'
   ])
