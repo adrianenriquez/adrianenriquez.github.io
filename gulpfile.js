@@ -38,14 +38,18 @@ gulp.task('copy', function(){
 gulp.task('build', function(){
 
     // CSS
-    // gulp.src('public/css/app.css')
-    //     .pipe(minifyCss())
-    //     .pipe(rename({
-    //         suffix: '.min'
-    //     }))
-    //     .pipe(gulp.dest('public/dist/css'));
+    gulp.src('public/css/app.css')
+        .pipe(minifyCss())
+        .pipe(rename({
+            suffix: '.min'
+        }))
+        .pipe(gulp.dest('public/dist/css'));
 
-    // JS
+    // Copy Fonts
+    gulp.src('public/fonts/*')
+    .pipe(gulp.dest('public/dist/fonts'));
+
+    // JS Concat
     gulp.src([
             'public/js/vendor/jquery.min.js',
             'public/js/vendor/bootstrap.min.js',
@@ -60,6 +64,10 @@ gulp.task('build', function(){
             'public/js/vendor/angular-retina/dist/angular-retina.min.js',
             'public/js/vendor/angular-scroll/angular-scroll.min.js',
             'public/js/vendor/owl.carousel.min.js',
+            'public/js/vendor/wow.min.js',
+            'public/js/vendor/countUp.min.js',
+            'public/js/vendor/jquery.waypoints.min.js',
+            'public/js/vendor/fastclick.js',
 
             'public/js/routes.js',
             'public/js/main.js',
@@ -68,7 +76,7 @@ gulp.task('build', function(){
 
             'public/js/controllers/home.js',
             'public/js/controllers/work.js',
-            'public/js/controllers/testimonial.js'
+            'public/js/controllers/section.js'
         ])
         .pipe(concat('app.min.js'))
         .pipe(uglify())

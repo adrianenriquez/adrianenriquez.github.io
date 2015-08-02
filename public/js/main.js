@@ -1,6 +1,6 @@
 angular.module('ae.main', [])
 
-.controller('MainCtrl', function($resource, $scope){
+.controller('MainCtrl', ['$resource', '$scope', function($resource, $scope){
 
     // Resources
     var profile = $resource("resources/data/profile.json"),
@@ -30,4 +30,4 @@ angular.module('ae.main', [])
         $scope.social = data;
     });
 
-});
+}]);
