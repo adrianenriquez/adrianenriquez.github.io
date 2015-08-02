@@ -17,7 +17,7 @@ angular.module('ae.routes', ['ui.router'])
     // route for the about page
     .state('home.work', {
         url: "work/:permalink",
-        onEnter: function ($state, $modal, $rootScope){
+        onEnter: ['$state', '$modal', '$rootScope', function ($state, $modal, $rootScope){
             $modal.open({
                 templateUrl: 'resources/views/partials/works-modal.html',
                 controller: 'WorkCtrl',
@@ -25,6 +25,6 @@ angular.module('ae.routes', ['ui.router'])
             }).result.finally(function(){
                 $state.go($rootScope.previousState);
             })
-        }
+        }]
     });
 }]);
