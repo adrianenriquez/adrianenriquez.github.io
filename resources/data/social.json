@@ -6,12 +6,6 @@
         "alt": "me@adrianenriquez.com"
     },
     {
-        "name": "Resume",
-        "icon": "file-pdf-o",
-        "url": "public/downloads/adrian-enriquez-cv.pdf",
-        "alt": "Download Resume"
-    },
-    {
         "name": "LinkedIn",
         "icon": "linkedin",
         "url": "http://ph.linkedin.com/in/adrianenriquez",
@@ -28,6 +22,12 @@
         "icon": "github",
         "url": "https://github.com/eydreeyawn",
         "alt": "Github"
+    },
+    {
+        "name": "Skype",
+        "icon": "skype",
+        "url": "skype:enriquez,adrian?add",
+        "alt": "Add to Skype"
     },
     {
         "name": "Twitter",

@@ -3,7 +3,7 @@
     "tagline": "Freelance Web Developer",
     "address": "Philippines",
     "email": "me@adrianenriquez.com",
-    "summary": "I'm Adrian Enriquez, a freelance web developer with more than 2 years of experience. I design and develop websites for clients from all around the world as a freelancer. Constantly learning and experiencing new things.",
+    "summary": "I am Adrian Enriquez, a freelance web developer based in Philippines. I am well versed with modern technology in designing and developing excellent web applications. I constantly aim to learn new and various things to accentuate my skills.",
     "services": [
         {
             "name": "UI/UX Design",
@@ -12,12 +12,12 @@
         },
         {
             "name": "Front-end Development",
-            "description": "Superior skills in HTML(5), CSS(3), Responsive and Pixel Perfect Design. Expert in Twitter Bootstrap framework and I like converting PSD to HTML. Proficient in LESS/SCSS, Gulp.js, Grunt, Javascript, jQuery, Angular.js. Familiar with other html/css frameworks like Foundation and Polymer.",
+            "description": "I like converting PSD/mockups to HTML. I put in my superior skills in HTML(5) and CSS(3) to create responsive and pixel perfect design. I am an expert in twitter bootstrap framework, and familiar with other html/css frameworks like Foundation and Polymer. I am proficient in LESS/SCSS, Gulp.js, Grunt, Javascript, jQuery, and Angular.js.",
             "icon": "laptop"
         },
         {
             "name": "Back-end Development",
-            "description": "I write clean codes using best practices and Object Oriented Programming(OOP). I'm good in php and my favorite framework is Laravel. Familiar with Node.js and express.js framework. I also develop REST APIs.",
+            "description": "I am proficient in PHP and love using Laravel as a framework. I am also familiar with Node.js. I also develop REST APIs. I write clean codes using best practices and Object Oriented Programming (OOP).",
             "icon": "fork"
         },
         {
@@ -27,12 +27,12 @@
         },
         {
             "name": "Content Management Sytem(CMS)",
-            "description": "I can setup, customize and/or craete Wordpress and Joomla Templates.",
+            "description": "I can setup, customize and/or create Wordpress and Joomla Templates.",
             "icon": "share"
         },
         {
             "name": "Other",
-            "description": "I'm familiar with MySQL, MongoDB, Firebase. Good in using Version Control System like Git and SVN. ",
+            "description": "In terms of databases, I am familiar with both SQL and no-sql functionalities such as MongoDB and Firebase. Also, I always use Version Control System for my projects such as Git and SVN.",
             "icon": "lightbulb"
         }
     ]

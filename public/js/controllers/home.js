@@ -1,13 +1,5 @@
 'use strict';
 
-/**
- * @ngdoc function
- * @name adrianenriquezApp.controller:MainCtrl
- * @description
- * # MainCtrl
- * Controller of the adrianenriquezApp
- */
-
 /*
  * Easing Functions - inspired from http://gizma.com/easing/
  * only considering the t value for the range [0, 1] => [0, 1]

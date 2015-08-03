@@ -19,7 +19,7 @@ angular.module('adrianenriquezApp', [
     'angular.filter',
     'duScroll',
     'ae.directives',
-    'ae.routes',
+    'ae.config',
     'ae.home',
     'ae.main',
     'ae.work',

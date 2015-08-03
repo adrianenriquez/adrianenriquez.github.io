@@ -69,7 +69,7 @@ gulp.task('build', function(){
             'public/js/vendor/jquery.waypoints.min.js',
             'public/js/vendor/fastclick.js',
 
-            'public/js/routes.js',
+            'public/js/config.js',
             'public/js/main.js',
             'public/js/app.js',
             'public/js/directives.js',

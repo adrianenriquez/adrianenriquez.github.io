@@ -6,7 +6,11 @@
         "address": "United States",
         "start_date": "Feb 2015",
         "end_date": "May 2015",
-        "description": "Converting PSD and mockups to HTML. Creating Responsive and Retina ready websites. Creating Views and Controllers for Laravel Application.",
+        "responsibilities": [
+            "Conversion of PSDs and mockups to HTML",
+            "Creation of responsive and Retina-ready websites",
+            "Creation of views and controllers for Laravel Application"
+        ],
         "tags": [
             "Laravel",
             "Bootstrap 3",
@@ -23,7 +27,12 @@
         "address": "Canada",
         "start_date": "Jul 2014",
         "end_date": "Sep 2014",
-        "description": "Developed many directives using Angular.js. Converting PSDs and mockups to working web pages. Data binding REST APIs to front-end application. Creating Responsive, pixel perfect design and Retina ready websites.",
+        "responsibilities": [
+            "Develop various directives for Angular application",
+            "Conversion of PSDs and mockups to working web pages",
+            "Handles data binding of REST APIs to frontend application",
+            "Creation of responsive, pixel perfect design and Retina-ready websites"
+        ],
         "tags": [
             "Angular.js",
             "Foundation 4 Framework",
@@ -40,7 +49,13 @@
         "address": "Ortigas Philippines",
         "start_date": "Nov 2013",
         "end_date": "May 2014",
-        "description": "Developed Windows services and applications. Developed Web services and REST APIs. Redesigning and Updating existing websites and applications. Develop mobile applications using Angular.js and Phonegap. Creating MSSQL stored procedures.",
+        "responsibilities": [
+            "Develop windows services and applications",
+            "Develop web services and REST APIs",
+            "Redesigned existing websites and applications",
+            "Develop mobile applications using Angular.js and Phonegap",
+            "Creation of MSSQL stored procedures for production data of vendor application"
+        ],
         "tags": [
             "Angular.js",
             "jQuery",
