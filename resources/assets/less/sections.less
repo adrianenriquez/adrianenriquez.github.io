@@ -60,7 +60,7 @@ section{
 }
 
 #about{
-    background-color: #fff;
+    background-color: lighten(@gray-lighter, 1.5%); 
     padding-top: 130px;
     padding-bottom:  0;
 
@@ -100,7 +100,7 @@ section{
 }
 
 #skills{
-    background-color: lighten(@gray-lighter, 2%); 
+    background-color: #fff;
 
     .skill-item{
         padding: 20px 40px;
@@ -126,15 +126,17 @@ section{
 }
 
 #works{
-    background-color: #fff;
+    background-color: lighten(@gray-lighter, 1.5%); 
 
     .work-item{
         position: relative;
         margin-bottom: 30px;
+        border: 10px solid #fff;
+        box-shadow: 0px 0px 0px 1px @gray-lighter;
 
         &:hover .work-details{
             opacity: 1;
-            background-color: fadeout(@brand-primary, 20%);
+            background-color: fadeout(#fff, 5%);
         }
 
         &:hover .work-thumbnail img{
@@ -160,7 +162,7 @@ section{
             right: 0;
             opacity: 0;
             text-align: center;
-            color: #fff;
+            color: @brand-primary;
             height: 100%;
             padding: 40px 20px;
             .transition(opacity .3s);
@@ -176,15 +178,15 @@ section{
             }
             
             &:before{
-                content: '';
-                border-top: 2px solid #fff;
-                border-bottom: 2px solid #fff;
-                position: absolute;
-                z-index: 10;
-                top: 10px;
-                left: 10px;
-                right: 10px;
-                bottom: 10px;
+                // content: '';
+                // border-top: 2px solid #fff;
+                // border-bottom: 2px solid #fff;
+                // position: absolute;
+                // z-index: 10;
+                // top: 10px;
+                // left: 10px;
+                // right: 10px;
+                // bottom: 10px;
             }
         }
 
@@ -216,7 +218,7 @@ section{
 }
 
 #experience{
-    background-color: lighten(@gray-lighter, 2%);
+    background-color: #fff;
 
     .media{
         margin-top: 30px;
@@ -260,7 +262,7 @@ section{
 }
 
 #testimonials{
-    background-color: #fff;
+    background-color: lighten(@gray-lighter, 2%); 
 }
 
 #contact{

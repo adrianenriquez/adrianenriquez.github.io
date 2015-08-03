@@ -87,9 +87,10 @@
 					</div>
 					<div class="work-details">
 						<h4>{{ project.title }}</h4>
-						<div class="col-xs-6 col-xs-offset-3 hidden-xs"><hr></div>
+						<div class="col-xs-6 col-xs-offset-3 hidden"><hr></div>
+						<br>
 						<div class="clearfix"></div>
-						<a ui-sref="home.work({permalink: '{{project.permalink}}'})" class="btn btn-clear">View</a>
+						<a ui-sref="home.work({permalink: '{{project.permalink}}'})" class="btn btn-clear btn-primary">View</a>
 					</div>
 				</div>
 			</div>
@@ -103,17 +104,18 @@
 						</div>
 						<div class="work-details">
 							<h4>{{ project.title }}</h4>
-							<div class="col-xs-6 col-xs-offset-3 hidden-xs"><hr></div>
+							<div class="col-xs-6 col-xs-offset-3 hidden"><hr></div>
+							<br>
 							<div class="clearfix"></div>
 							<!-- <a href="#/work/{{ project.permalink }}" class="btn btn-primary">View</a> -->
-							<a ui-sref="home.work({permalink: '{{project.permalink}}'})" class="btn btn-clear">View</a>
+							<a ui-sref="home.work({permalink: '{{project.permalink}}'})" class="btn btn-clear btn-primary">View</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="text-center">
-			<button class="btn btn-primary" ng-show="showAllWorks"  ng-click="showAllWorks = !showAllWorks">
+			<button class="btn btn-info btn-clear" ng-show="showAllWorks"  ng-click="showAllWorks = !showAllWorks">
 				<span class="ss-icon ss-dropdown"></span> View All
 			</button>
 		</div>
@@ -184,7 +186,7 @@
 		<header class="fadeIn wow">
 			<h1>Contact</h1>
 			<div class="row">
-				<p class="col-sm-4 col-sm-offset-4">Have some projects ? or simply you wish to say hello, feel free to get in touch.</p>
+				<p class="col-sm-4 col-sm-offset-4">Have some projects? or simply you wish to say hello, feel free to get in touch.</p>
 			</div>
 		</header>
 		<div class="row">

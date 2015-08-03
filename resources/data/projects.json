@@ -22,7 +22,7 @@
     ]
   },
   "ssgbc": {
-    "title": "Southern Supereme Global Builders Corporation Website",
+    "title": "Southern Supereme Global Builders Corporation",
     "about": "A newly established dealer of heavy equipment, wholesaler of different kinds of aggregates and renting of other machineries.",
     "responsibilities" : "I used Twitter Bootstrap to create this static website.",
     "website": "http://ssg-bc.com",
@@ -70,7 +70,7 @@
     ]
   },
   "ojt_ue_manila": {
-    "title": "OJT UE Manila Website",
+    "title": "OJT UE Manila",
     "about": "A website for announcements and news for On the Job Training Students of University of the East Manila.",
     "responsibilities" : "Wordpress",
     "website": "http://ojtuemanila.com",
@@ -89,7 +89,7 @@
   },
   "makeup_by_russell": {
     "title": "Make-up by Russell",
-    "about": "An image gallery portfolio website.",
+    "about": "An image gallery portfolio.",
     "responsibilities" : "I used native PHP and mySQL to store image links and content.",
     "website": "http://makeupbyrussell.com",
     "date": "May 2014",
@@ -108,7 +108,7 @@
     ]
   },
   "git_lucky": {
-    "title": "Git Lucky Team Portfolio Website",
+    "title": "Git Lucky Team Portfolio",
     "about": "Crafting your vision into visually entertaining and smart experience web application",
     "responsibilities" : "Developer",
     "website": "http://gitlucky.herokuapp.com",

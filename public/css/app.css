@@ -5931,7 +5931,7 @@ button.close {
 }
 .modal-content {
   position: relative;
-  background-color: #ffffff;
+  background-color: #f4f4f4;
   border: 1px solid #999999;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0;
@@ -12949,6 +12949,11 @@ section h2 {
 label {
   font-weight: 400;
 }
+.label {
+  display: inline-block;
+  margin: 0 2px;
+  padding: 3px 7px;
+}
 .text-success {
   color: #fc4349;
 }
@@ -13095,7 +13100,7 @@ label {
   width: 52px;
   height: 52px;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: #f2f2f2;
   display: inline-block;
   -webkit-transition: background-color 0.2s ease-in-out;
   -o-transition: background-color 0.2s ease-in-out;
@@ -13106,6 +13111,10 @@ label {
 }
 .modal .modal-dialog {
   margin-top: 45px;
+}
+.modal .modal-header {
+  padding: 20px 25px 0;
+  border-bottom: none;
 }
 .modal .modal-header h3 {
   font-size: 20px;
@@ -13120,13 +13129,17 @@ label {
 }
 .modal .modal-body img {
   max-width: 100%;
+  border: 10px solid #fff;
 }
 .modal .modal-body p {
   margin-bottom: 5px;
 }
 .modal .modal-body .label {
   display: inline-block;
-  margin: 0 2px;
+}
+.modal .modal-body hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .modal .btn-launch {
   margin-bottom: 10px;
@@ -13217,7 +13230,7 @@ section header {
   }
 }
 #about {
-  background-color: #fff;
+  background-color: #f2f2f2;
   padding-top: 130px;
   padding-bottom: 0;
 }
@@ -13250,7 +13263,7 @@ section header {
   }
 }
 #skills {
-  background-color: #f4f4f4;
+  background-color: #fff;
 }
 #skills .skill-item {
   padding: 20px 40px;
@@ -13273,15 +13286,17 @@ section header {
   }
 }
 #works {
-  background-color: #fff;
+  background-color: #f2f2f2;
 }
 #works .work-item {
   position: relative;
   margin-bottom: 30px;
+  border: 10px solid #fff;
+  box-shadow: 0px 0px 0px 1px #eeeeee;
 }
 #works .work-item:hover .work-details {
   opacity: 1;
-  background-color: rgba(44, 62, 80, 0.8);
+  background-color: rgba(255, 255, 255, 0.95);
 }
 #works .work-item:hover .work-thumbnail img {
   -webkit-transform: scale(1.1);
@@ -13312,7 +13327,7 @@ section header {
   right: 0;
   opacity: 0;
   text-align: center;
-  color: #fff;
+  color: #2c3e50;
   height: 100%;
   padding: 40px 20px;
   -webkit-transition: opacity 0.3s;
@@ -13326,17 +13341,6 @@ section header {
 #works .work-item .work-details hr {
   margin-top: 15px;
   margin-bottom: 15px;
-}
-#works .work-item .work-details:before {
-  content: '';
-  border-top: 2px solid #fff;
-  border-bottom: 2px solid #fff;
-  position: absolute;
-  z-index: 10;
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
 }
 @media (max-width: 767px) {
   #works .work-item {
@@ -13363,7 +13367,7 @@ section header {
   height: 0;
 }
 #experience {
-  background-color: #f4f4f4;
+  background-color: #fff;
 }
 #experience .media {
   margin-top: 30px;
@@ -13400,7 +13404,7 @@ section header {
   }
 }
 #testimonials {
-  background-color: #fff;
+  background-color: #f4f4f4;
 }
 #contact {
   background: url('/public/images/bg/phone.jpg') center bottom no-repeat #2c3e50;
