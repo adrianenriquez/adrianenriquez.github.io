@@ -11,12 +11,9 @@
 angular.module('adrianenriquezApp', [
     'ngAnimate',
     'ngResource',
-    'ngSanitize',
-    'ngTouch',
     'ngRetina',
     'ui.router',
     'ui.bootstrap',
-    'angular.filter',
     'duScroll',
     'ae.directives',
     'ae.config',

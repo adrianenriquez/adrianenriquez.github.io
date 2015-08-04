@@ -51,24 +51,6 @@ gulp.task('build', function(){
 
     // JS Concat
     gulp.src([
-            'public/js/vendor/jquery.min.js',
-            'public/js/vendor/bootstrap.min.js',
-            'public/js/vendor/angular/angular.min.js',
-            'public/js/vendor/angular-animate/angular-animate.min.js',
-            'public/js/vendor/angular-resource/angular-resource.min.js',
-            'public/js/vendor/angular-ui-router/release/angular-ui-router.min.js',
-            'public/js/vendor/angular-bootstrap/ui-bootstrap-tpls.min.js',
-            'public/js/vendor/angular-sanitize/angular-sanitize.min.js',
-            'public/js/vendor/angular-touch/angular-touch.min.js',
-            'public/js/vendor/angular-filter/dist/angular-filter.min.js',
-            'public/js/vendor/angular-retina/dist/angular-retina.min.js',
-            'public/js/vendor/angular-scroll/angular-scroll.min.js',
-            'public/js/vendor/owl.carousel.min.js',
-            'public/js/vendor/wow.min.js',
-            'public/js/vendor/countUp.min.js',
-            'public/js/vendor/jquery.waypoints.min.js',
-            'public/js/vendor/fastclick.js',
-
             'public/js/config.js',
             'public/js/main.js',
             'public/js/app.js',
