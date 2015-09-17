@@ -2,11 +2,10 @@
   "name": "adrianenriquez",
   "version": "2.0.0",
   "dependencies": {
-    "gulp-less": "^3.0.3",
-    "gulp-copy": "*"
+    "gulp": "^3.9.0"
   },
   "devDependencies": {
-    "gulp": "^3.8.8",
+    "gulp-copy": "*",
     "gulp-concat": "^2.6.0",
     "gulp-less": "^3.0.3",
     "gulp-minify-css": "^1.2.0",

@@ -8575,7 +8575,12 @@ button.close {
 .fa-medium:before {
   content: "\f23a";
 }
-/*!Animate.css - http://daneden.me/animate Licensed under the MIT license -http://opensource.org/licenses/MIT Copyright (c) 2015 Daniel Eden*/
+/*!
+Animate.css - http://daneden.me/animate
+Licensed under the MIT license - http://opensource.org/licenses/MIT
+
+Copyright (c) 2015 Daniel Eden
+*/
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -8591,10 +8596,7 @@ button.close {
   animation-duration: 2s;
 }
 .animated.bounceIn,
-.animated.bounceOut {
-  -webkit-animation-duration: .75s;
-  animation-duration: 0.75s;
-}
+.animated.bounceOut,
 .animated.flipOutX,
 .animated.flipOutY {
   -webkit-animation-duration: .75s;
@@ -8602,10 +8604,10 @@ button.close {
 }
 @-webkit-keyframes bounce {
   0%,
+  100%,
   20%,
   53%,
-  80%,
-  100% {
+  80% {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     -webkit-transform: translate3d(0, 0, 0);
@@ -8631,10 +8633,10 @@ button.close {
 }
 @keyframes bounce {
   0%,
+  100%,
   20%,
   53%,
-  80%,
-  100% {
+  80% {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     -webkit-transform: translate3d(0, 0, 0);
@@ -8666,8 +8668,8 @@ button.close {
 }
 @-webkit-keyframes flash {
   0%,
-  50%,
-  100% {
+  100%,
+  50% {
     opacity: 1;
   }
   25%,
@@ -8677,8 +8679,8 @@ button.close {
 }
 @keyframes flash {
   0%,
-  50%,
-  100% {
+  100%,
+  50% {
     opacity: 1;
   }
   25%,
@@ -9009,6 +9011,8 @@ button.close {
   animation-name: wobble;
 }
 @-webkit-keyframes jello {
+  0%,
+  100%,
   11.1% {
     -webkit-transform: none;
     transform: none;
@@ -9040,13 +9044,11 @@ button.close {
   88.8% {
     -webkit-transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
     transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
-  }
-  100% {
-    -webkit-transform: none;
-    transform: none;
   }
 }
 @keyframes jello {
+  0%,
+  100%,
   11.1% {
     -webkit-transform: none;
     transform: none;
@@ -9078,10 +9080,6 @@ button.close {
   88.8% {
     -webkit-transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
     transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
-  }
-  100% {
-    -webkit-transform: none;
-    transform: none;
   }
 }
 .jello {
@@ -9092,11 +9090,11 @@ button.close {
 }
 @-webkit-keyframes bounceIn {
   0%,
+  100%,
   20%,
   40%,
   60%,
-  80%,
-  100% {
+  80% {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
@@ -9130,11 +9128,11 @@ button.close {
 }
 @keyframes bounceIn {
   0%,
+  100%,
   20%,
   40%,
   60%,
-  80%,
-  100% {
+  80% {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
@@ -9172,10 +9170,10 @@ button.close {
 }
 @-webkit-keyframes bounceInDown {
   0%,
+  100%,
   60%,
   75%,
-  90%,
-  100% {
+  90% {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
@@ -9204,10 +9202,10 @@ button.close {
 }
 @keyframes bounceInDown {
   0%,
+  100%,
   60%,
   75%,
-  90%,
-  100% {
+  90% {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
@@ -9240,10 +9238,10 @@ button.close {
 }
 @-webkit-keyframes bounceInLeft {
   0%,
+  100%,
   60%,
   75%,
-  90%,
-  100% {
+  90% {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
@@ -9272,10 +9270,10 @@ button.close {
 }
 @keyframes bounceInLeft {
   0%,
+  100%,
   60%,
   75%,
-  90%,
-  100% {
+  90% {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
@@ -9308,10 +9306,10 @@ button.close {
 }
 @-webkit-keyframes bounceInRight {
   0%,
+  100%,
   60%,
   75%,
-  90%,
-  100% {
+  90% {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
@@ -9340,10 +9338,10 @@ button.close {
 }
 @keyframes bounceInRight {
   0%,
+  100%,
   60%,
   75%,
-  90%,
-  100% {
+  90% {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
@@ -9376,10 +9374,10 @@ button.close {
 }
 @-webkit-keyframes bounceInUp {
   0%,
+  100%,
   60%,
   75%,
-  90%,
-  100% {
+  90% {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
@@ -9408,10 +9406,10 @@ button.close {
 }
 @keyframes bounceInUp {
   0%,
+  100%,
   60%,
   75%,
-  90%,
-  100% {
+  90% {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
@@ -13197,11 +13195,14 @@ section header {
   border: 0;
   text-transform: initial;
   font-size: 42px;
-  display: block;
+  display: inline-block;
+  background-color: #000000;
+  padding: 8px 12px;
 }
 #home h2 {
   border-top: 2px solid #2c3e50;
   border-bottom: 2px solid #2c3e50;
+  background-color: #2c3e50;
   color: #d7dadb;
   padding: 8px 12px;
   display: inline-block;
