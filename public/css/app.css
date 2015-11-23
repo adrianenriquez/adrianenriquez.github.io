@@ -13199,6 +13199,10 @@ section {
 section header {
   margin-bottom: 40px;
 }
+section header h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
 @media (max-width: 767px) {
   section {
     padding: 30px 0;
@@ -13206,15 +13210,28 @@ section header {
 }
 #home {
   min-height: 100%;
-  background: url('/public/images/bg/table-v2.jpg') top center no-repeat #3e606f;
+  background: url('/public/images/bg/table.jpg') top center no-repeat #3e606f;
   background-attachment: fixed;
   background-size: cover;
   padding: 0;
+  z-index: -1;
+}
+#home:after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #3e606f;
+  z-index: 0;
+  opacity: 0.7;
 }
 #home h1 {
   color: #fff;
   border: 0;
-  text-transform: initial;
+  text-transform: uppercase;
+  font-weight: 700;
   font-size: 42px;
   display: inline-block;
 }
@@ -13231,6 +13248,7 @@ section header {
   width: 550px;
   height: 180px;
   margin: -90px 0 0 -275px;
+  z-index: 5;
 }
 @media (max-width: 767px) {
   #home {
@@ -13294,7 +13312,7 @@ section header {
   display: inline-block;
 }
 #skills .skill-item h4 {
-  color: #91aa9d;
+  color: #3e606f;
 }
 @media (max-width: 991px) {
   #skills .skill-item {
@@ -13383,7 +13401,7 @@ section header {
   height: 0;
 }
 #experience {
-  background-color: #fff;
+  background-color: #fcfff5;
 }
 #experience .media {
   margin-top: 30px;
@@ -13426,6 +13444,9 @@ section header {
   background: url('/public/images/bg/phone.jpg') center bottom no-repeat #3e606f;
   background-attachment: fixed;
   background-size: cover;
+  color: #fff;
+}
+#contact h1 {
   color: #fff;
 }
 #contact textarea {
