@@ -34,6 +34,12 @@
         "icon": "twitter",
         "url": "https://twitter.com/eydreeyawn",
         "alt": "Twitter"
+    },
+    {
+        "name": "Elance",
+        "icon": "briefcase",
+        "url": "http://a-enriquez.elance.com",
+        "alt": "Elance"
     }
     
 ]
