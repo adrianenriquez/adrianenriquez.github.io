@@ -348,23 +348,24 @@
 
     ]
   },
-  "salt": {
-    "title": "SALT",
-    "about": "SALT is a company that provides a range of specialist services to SMEs, services to help overcome business hiccups and accelerate strong business growth.",
-    "responsibilities" : "PSD to HTML",
-    "website": "http://projects.inthelm.com/salt/app/",
+  "kingjoytravel": {
+    "title": "King and Joy Travel",
+    "about": "A travel and tours website",
+    "responsibilities" : "Wordpress Custom Theme",
+    "website": "http://kingjoytravel.com",
     "date": "June 2015",
     "job": "Developer",
     "category": "website",
     "tags": [
         "CMS",
         "PHP",
-        "CSS", 
+        "CSS/LESS", 
         "Responsive Design", 
         "Javascript", 
+        "Wordpress", 
         "Bootstrap"
     ],
-    "thumbnail": "salt@2x.jpg",
+    "thumbnail": "kingjoytravel@2x.jpg",
     "images":[
 
     ]
