@@ -52,7 +52,7 @@ angular.module('ae.home', ['duScroll'])
         element: document.getElementById('stats-container'),
         handler: function(direction) {
             new CountUp("projects-done", 1, 20, 0, 2).start();
-            new CountUp("clients-worked", 1, 10, 0, 2).start();
+            new CountUp("clients-worked", 1, 20, 0, 2).start();
             new CountUp("experience-years", 1, 4, 0, 2).start();
             //numAnim.start();
             this.destroy()
