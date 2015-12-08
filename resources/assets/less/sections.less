@@ -52,22 +52,25 @@ section{
     }
 
     #home-summary{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 550px;
-        height: 180px;
-        margin: -90px 0 0 -275px;
-        z-index: 5;
+        @media (min-width: @screen-sm-min) {
+             position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 550px;
+            height: 180px;
+            margin: -90px 0 0 -275px;
+            z-index: 5;
+        }
     }
 
     @media (max-width: @screen-xs-max){
         background-attachment: initial;
 
         #home-summary{
-            position: static;
+            position: relative;
             margin: 150px 0;
             width: 100%;
+            z-index: 1;
         }
 
         h2{
