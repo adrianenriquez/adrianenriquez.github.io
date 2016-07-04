@@ -1,5 +1,25 @@
 [
     {
+        "company_name": "Zenvoy",
+        "icon_name": "zenvoy-logo.png",
+        "position": "Full Stack Developer",
+        "address": "United States",
+        "start_date": "Sep 2016",
+        "end_date": "Present",
+        "responsibilities": [
+            "Convert mockups to Laravel",
+            "Develop REST APIs"
+        ],
+        "tags": [
+            "Laravel 4",
+            "Bootstrap 3",
+            "Javascript",
+            "jQuery",
+            "Full Stack Development",
+            "PSD to HTML"
+        ]
+    },
+    {
         "company_name": "Call Loop",
         "icon_name": "cl-logo.png",
         "position": "Front-end Developer",
