@@ -2,3 +2,4 @@ node_modules
 bower_components
 benchmark.txt
 .DS_Store
+resources/data/recent-projects.md
