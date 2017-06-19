@@ -69,12 +69,6 @@ gulp.task('build', function(){
 gulp.task('watch', function(){
     gulp.watch('resources/assets/less/**', ['less']);
 });
-
-    
-    
-    
-    
-    
     
     
     
