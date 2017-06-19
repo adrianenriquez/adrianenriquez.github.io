@@ -22,7 +22,7 @@ angular.module('ae.section', [])
         $('#btn-send').button('loading');
 
         $http({
-            url     : '//formspree.io/me@adrianenriquez.com',
+            url     : '//formspree.io/adrian.enriquez89@gmail.com',
             method  : 'POST',
             data    : $.param($scope.formData),  // pass in data as strings
             dataType: 'json',
