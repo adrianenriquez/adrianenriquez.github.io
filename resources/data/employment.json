@@ -1,11 +1,39 @@
 [
     {
+        "company_name": "Salary Board",
+        "icon_name": "salaryboard-logo.png",
+        "position": "Frontend Web Developer",
+        "address": "United States",
+        "start_date": "Nov 2017",
+        "end_date": "May 2019",
+        "responsibilities": [
+            "Developed and updated web application using Laravel 5, Bootstrap 3 & Vue.js Framework",
+            "Created web application to generate multiple PDFs",
+            "Developed and consumed APIs using Lumen Framework",
+            "Generated and developed custom charts using Highcharts.js",
+            "Real-time PDF generation of powered by Pusher.js"
+        ],
+        "tags": [
+            "Laravel 5",
+            "Vue.js",
+            "Bootstrap 3",
+            "Javascript",
+            "jQuery",
+            "SCSS",
+            "LESS",
+            "Pusher.js",
+            "Highcharts.js",
+            "Full Stack Development",
+            "Wireframe to HTML"
+        ]
+    },
+    {
         "company_name": "Zenvoy",
         "icon_name": "zenvoy-logo.png",
         "position": "Full Stack Developer",
         "address": "United States",
         "start_date": "Sep 2015",
-        "end_date": "Present",
+        "end_date": "Jun 2017",
         "responsibilities": [
             "Convert mockups to Laravel",
             "Develop REST APIs"
