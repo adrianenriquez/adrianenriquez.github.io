@@ -1,0 +1,72 @@
+.logo {
+	width: 40px;
+	height: 40px;
+}
+
+.nav-container {
+	position: absolute;
+	display: flex;
+	padding-left: 0;
+	list-style-type: none;
+	height: 70px;
+
+	li {
+		align-self: center;
+		margin-right: 40px;
+	}
+
+	.nav-link {
+		color: $gray-600;
+		font-family: $nunito-font;
+
+		&.active {
+			color: $gray-800;
+		}
+	}
+}
+
+.hero {
+	position: relative;
+	padding: 10em 0 15em;
+
+	&__design-text {
+		position: absolute;
+		transform: rotate(-90deg);
+		font-size: 12em;
+		left: -1.7em;
+		top: 1.25em;
+		font-family: $nunito-font;
+		color: $gray-100;
+		z-index: -1;
+	}
+
+	&__bg-right {
+		position: absolute;
+		background-color: $blue;
+		left: 70%;
+		right: 0;
+		top: 0;
+		bottom: 0;
+	}
+
+	&__dp-container {
+		width: 380px;
+		height: 380px;
+		background-color: $orange;
+		border: 13px $white solid;
+		position: absolute;
+		left: -25%;
+		top: 30%;
+		border-radius: 50px;
+		transform: rotate(-20deg);
+	}
+}
+
+// Controls
+.btn {
+	text-transform: uppercase;
+
+	&-sm {
+		padding-top: $input-btn-padding-y-sm + .1;
+	}
+}

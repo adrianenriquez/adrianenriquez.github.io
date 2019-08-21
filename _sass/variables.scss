@@ -1,0 +1,34 @@
+// Colors
+$blue:    #235DB0;
+$orange:  #EB8D31;
+$gray-600: #898989;
+
+$theme-colors: (
+  "primary": $blue,
+  "secondary": $orange
+);
+
+$warning: $orange;
+
+// Typography
+$lato-font: 'Lato', sans-serif;
+$nunito-font: 'Nunito', sans-serif;
+
+$font-family-sans-serif: $lato-font;
+$headings-font-family: $nunito-font;
+
+$border-radius-sm: 1rem;
+$border-radius-lg: 1.5rem;
+
+$text-muted: $gray-600;
+
+// Controls
+$input-btn-font-family: $nunito-font;
+
+$input-btn-font-size-sm: .7rem;
+$input-btn-padding-y-sm: .25rem !default;
+$input-btn-padding-x-sm: .75rem !default;
+
+$input-btn-font-size-lg: 1rem;
+$input-btn-padding-y-lg: .75rem !default;
+$input-btn-padding-x-lg: 1.5rem !default;

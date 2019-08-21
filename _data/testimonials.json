@@ -1,0 +1,21 @@
+[
+    {
+        "active": false,
+        "name": "Chris Brisson",
+        "image": "http://placehold.it/90x90",
+        "message": "Adrian is AMAZING and the quality of work is top notch. Thanks for all the great work and help!",
+        "company": "Call Loop",
+        "position": "Founder & CEO"
+    },
+    {   
+        "active": true,
+        "name": "Jon F.",
+        "image": "http://placehold.it/90x90",
+        "message": "Worked fast, on time, easy to work with and superb deliverable. I've done many projects and this was one of the best experiences I've had. Thanks for all the great work and help! Highly recommended!",
+        "company": "Smaaht | Informed Fans",
+        "position": "Founder"
+    },
+    {
+        "meesage": "Adrian is fast, structured and use best practices combined with excellent and tidy coding. He has very good communication, verbally and in writing. Adrian is exceptionally bright and skilled, he is highly recommended and we will hire him again."
+    }
+]
