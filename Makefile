@@ -1,6 +1,7 @@
 SHELL := /bin/bash
 NPM := npm
 VENDOR_DIR = assets/vendor/
+SASS_DIR = assets/sass/
 JEKYLL := jekyll
 
 PROJECT_DEPS := package.json
@@ -31,6 +32,7 @@ include-npm-deps:
 	cp node_modules/popper.js/dist/umd/popper.min.js.map $(VENDOR_DIR)
 	cp node_modules/bootstrap/dist/js/bootstrap.min.js $(VENDOR_DIR)
 	cp node_modules/bootstrap/dist/js/bootstrap.min.js.map $(VENDOR_DIR)
+	cp -a node_modules/bootstrap/scss/. $(SASS_DIR)
 
 build: include-npm-deps
 	$(JEKYLL) build
