@@ -23,7 +23,7 @@ headline: I help businesses generate leads through high-converting websites and 
 
     <title>{{ page.title }}</title>
   </head>
-  <body style="padding-top: 73px;">
+  <body style="padding-top: 50px;">
   	<div class="alert alert-warning mb-0 fixed-top">
   		<div class="container">
 	  		🚧 <strong>Heads-up!</strong> This website is currently under construction. 🚧
@@ -61,7 +61,10 @@ headline: I help businesses generate leads through high-converting websites and 
 					<div class="col-lg-7">
 						<h5 class="text-muted">Hi, I'm Adrian Enriquez</h5>
 						<h1 class="mb-4">{{ page.headline }}</h1>
-						<a href="mailto:{{ 'adriandenriquez@gmail.com' | encode_email }}?Subject=Free consultation from adrianenriquez.com" class="btn btn-lg btn-primary">Get a free consult</a>
+						<div>
+							<a href="mailto:{{ 'adriandenriquez@gmail.com' | encode_email }}?Subject=Free consultation from adrianenriquez.com" class="btn btn-lg btn-primary">Get a free consult</a>
+							<a href="#" class="btn btn-link">Learn more</a>
+						</div>
 						<!-- <span class="text-muted text-sm d-block">Send me your details and I'll get back to you to set-up a call.</span> -->
 					</div>
 				</div>
@@ -73,15 +76,25 @@ headline: I help businesses generate leads through high-converting websites and 
 			</div>
 		</section>
 		<section id="services" class="mb-5">
-			<div class="container">
+			<div class="container text-center">
 				<h2>Services</h2>
 				<h3>A website that focuses on turning visitors to leads, customers or sale. </h3>
-				<br><br>
-				<strong>Awesome Design:</strong> A clean, modern design featuring only relevant information and utilizing high quality images or videos which showcase your product or service.
-				<br><br>
-				<strong>Effective Call-to-Action</strong> (CTA): Prompts your visitors, leads, and customers to take action. This could be sign-up form, signing up for newsletter, or downloading a free report. 
-				<br><br>
-				<strong>Google Analytics Set-up</strong>: I will provide a monthly report of your website using Google Analytics. It allows you to analyze in-depth detail about the visitors on your website and it provides valuable insights that can help you to shape the success strategy of your business.
+				<br>
+				<br>
+				<div class="row">
+					<div class="col-sm-4">
+						<h3>Awesome Design</h3> 
+						<p>A clean, modern design featuring only relevant information and utilizing high quality images or videos which showcase your product or service.</p>
+					</div>
+					<div class="col-sm-4">
+						<h3>Effective Call-to-Action</h3> 
+						<p>(CTA): Prompts your visitors, leads, and customers to take action. This could be sign-up form, signing up for newsletter, or downloading a free report.</p>
+					</div>
+					<div class="col-sm-4">
+						<h3>Google Analytics Set-up</h3>
+						<p>I will provide a monthly report of your website using Google Analytics. It allows you to analyze in-depth detail about the visitors on your website and it provides valuable insights that can help you to shape the success strategy of your business.</p>
+					</div>
+				</div>
 			</div>
 		</section>
 		<section id="process" class="mb-5">

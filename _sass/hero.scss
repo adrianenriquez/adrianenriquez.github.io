@@ -42,7 +42,8 @@
 
 	&__bg-right {
 		position: absolute;
-		background-color: $blue;
+		background: url('../svg/hero-bg.svg') no-repeat;
+		background-size: cover;
 		left: 70%;
 		right: 0;
 		top: 0;

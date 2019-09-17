@@ -1903,7 +1903,7 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 .hero { position: relative; padding: 10em 0 15em; }
 .hero__design-text { position: absolute; transform: rotate(-90deg); font-size: 12em; left: -1.7em; top: 1.25em; font-family: "Nunito", sans-serif; color: #f8f9fa; z-index: -1; }
-.hero__bg-right { position: absolute; background-color: #235DB0; left: 70%; right: 0; top: 0; bottom: 0; }
+.hero__bg-right { position: absolute; background: url("../svg/hero-bg.svg") no-repeat; background-size: cover; left: 70%; right: 0; top: 0; bottom: 0; }
 .hero__dp-container { width: 380px; height: 380px; background-color: #EB8D31; border: 13px #fff solid; position: absolute; left: -25%; top: 30%; border-radius: 50px; transform: rotate(-20deg); }
 
 .btn { text-transform: uppercase; }
