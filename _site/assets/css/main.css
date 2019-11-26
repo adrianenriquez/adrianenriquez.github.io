@@ -1894,6 +1894,15 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 .invisible { visibility: hidden !important; }
 
+body { padding-top: 50px; }
+
+.testimonials__item { position: relative; }
+.testimonials__item:before { content: '"'; position: absolute; font-size: 16rem; color: #f8f9fa; z-index: 0; left: -26px; line-height: 9rem; }
+.testimonials__item p { z-index: 1; position: relative; }
+.testimonials__item h5 { margin-bottom: 0; }
+
+.alert { border-radius: 0; }
+
 .logo { width: 40px; height: 40px; }
 
 .nav-container { position: absolute; display: flex; padding-left: 0; list-style-type: none; height: 70px; }
@@ -1901,10 +1910,10 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 .nav-container .nav-link { color: #898989; font-family: "Nunito", sans-serif; }
 .nav-container .nav-link.active { color: #343a40; }
 
-.hero { position: relative; padding: 10em 0 15em; }
+.hero { position: relative; padding: 10em 0 15em; overflow: hidden; }
 .hero__design-text { position: absolute; transform: rotate(-90deg); font-size: 12em; left: -1.7em; top: 1.25em; font-family: "Nunito", sans-serif; color: #f8f9fa; z-index: -1; }
 .hero__bg-right { position: absolute; background: url("../svg/hero-bg.svg") no-repeat; background-size: cover; left: 70%; right: 0; top: 0; bottom: 0; }
-.hero__dp-container { width: 380px; height: 380px; background-color: #EB8D31; border: 13px #fff solid; position: absolute; left: -25%; top: 30%; border-radius: 50px; transform: rotate(-20deg); }
+.hero__dp { width: 487px; height: 527px; position: absolute; left: -38%; top: 15%; border-radius: 50px; }
 
 .btn { text-transform: uppercase; }
 .btn-sm { padding-top: 0.35rem; }

@@ -1,0 +1,28 @@
+body {
+	padding-top: 50px; // for the alert
+}
+
+.testimonials {
+	&__item {
+		position: relative;
+
+		&:before {
+			content: '"';
+			position: absolute;
+			font-size: 16rem;
+			color: $gray-100;
+			z-index: 0;
+			left: -26px;
+			line-height: 9rem;
+		}
+
+		p {
+			z-index: 1;
+			position: relative;
+		}
+
+		h5 {
+			margin-bottom: 0;
+		}
+	}
+}

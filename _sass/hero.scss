@@ -1,3 +1,7 @@
+.alert {
+	border-radius: 0;
+}
+
 .logo {
 	width: 40px;
 	height: 40px;
@@ -28,6 +32,7 @@
 .hero {
 	position: relative;
 	padding: 10em 0 15em;
+	overflow: hidden;
 
 	&__design-text {
 		position: absolute;
@@ -50,16 +55,18 @@
 		bottom: 0;
 	}
 
-	&__dp-container {
-		width: 380px;
-		height: 380px;
-		background-color: $orange;
-		border: 13px $white solid;
+	&__dp {
+		width: 487px;
+		height: 527px;
 		position: absolute;
-		left: -25%;
-		top: 30%;
+		left: -38%;
+		top: 15%;
 		border-radius: 50px;
-		transform: rotate(-20deg);
+		transform: scale(0.5);
+
+		@media (min-width: $screen-sm-min) {
+			transform: scale(1);
+		}
 	}
 }
 
