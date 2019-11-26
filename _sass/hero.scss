@@ -62,11 +62,11 @@
 		left: -38%;
 		top: 15%;
 		border-radius: 50px;
-		transform: scale(0.5);
+		// transform: scale(0.5);
 
-		@media (min-width: $screen-sm-min) {
-			transform: scale(1);
-		}
+		// @media (min-width: $screen-sm-min) {
+		// 	transform: scale(1);
+		// }
 	}
 }
 
