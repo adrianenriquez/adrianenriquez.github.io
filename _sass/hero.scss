@@ -31,8 +31,12 @@
 
 .hero {
 	position: relative;
-	padding: 10em 0 15em;
+	padding: 15em 0 10em;
 	overflow: hidden;
+
+	@include media-breakpoint-up(md) {
+		padding: 10em 0 15em;
+	}
 
 	&__design-text {
 		position: absolute;
@@ -49,24 +53,34 @@
 		position: absolute;
 		background: url('../svg/hero-bg.svg') no-repeat;
 		background-size: cover;
-		left: 70%;
+		left: 90%;
 		right: 0;
 		top: 0;
 		bottom: 0;
+
+		@include media-breakpoint-up(md) {
+			left: 80%;
+		} 
+
+		@include media-breakpoint-up(lg) {
+			left: 70%;
+		} 
 	}
 
 	&__dp {
 		width: 487px;
 		height: 527px;
 		position: absolute;
-		left: -38%;
+		right: 50%;
 		top: 15%;
 		border-radius: 50px;
-		// transform: scale(0.5);
+		transform: scale(0.5);
+		display: none;
 
-		// @media (min-width: $screen-sm-min) {
-		// 	transform: scale(1);
-		// }
+		@include media-breakpoint-up(xl) {
+			transform: scale(1);
+			display: block;
+		} 
 	}
 }
 
